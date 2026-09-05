@@ -47,7 +47,7 @@ interface MenuItem {
 
 const Sidebar: React.FC<SidebarProps> = ({
   position,
-  title = "Unigraph",
+  title = "Aegraph",
   menuItems,
   bottomElements, // Add the new prop
   onToggle,

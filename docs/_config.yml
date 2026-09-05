@@ -1,11 +1,11 @@
 # Site Settings
-title: Unigraph
+title: Aegraph
 description: A structured documentation site with sidebar navigation.
 theme: just-the-docs
 remote_theme: just-the-docs/just-the-docs
 url: https://just-the-docs.github.io # For some reason I have to include this else the next repository definition is said to be invalid
 
-repository: "https://github.com/aesgraph/unigraph"
+repository: "https://github.com/aesgraph/aegraph"
 
 mermaid:
   enable: true
@@ -108,7 +108,7 @@ aux_links:
   "Unigraph.app":
     - "https://unigraph.vercel.app"
   "Github":
-    - "https://github.com/aesgraph/unigraph"
+    - "https://github.com/aesgraph/aegraph"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
