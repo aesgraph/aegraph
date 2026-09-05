@@ -9,9 +9,12 @@ import MarkdownViewer from "../common/MarkdownViewer";
 import ResizableSplitter from "../common/ResizableSplitter";
 import "./DocumentationView.css";
 
+// Shown instead of the empty "Documentation Browser" placeholder on first load.
+const DEFAULT_DOC = "/markdowns/unigraph/UnigraphOverview.md";
+
 const DocumentationView: React.FC = () => {
   const { theme } = useTheme();
-  const [selectedFile, setSelectedFile] = useState<string | null>(null);
+  const [selectedFile, setSelectedFile] = useState<string | null>(DEFAULT_DOC);
   const [sidebarWidth, setSidebarWidth] = useState(370);
   const [sidebarMode, setSidebarMode] = useState<"tree" | "search">("tree");
   const currentSceneGraph = useAppConfigStore(
