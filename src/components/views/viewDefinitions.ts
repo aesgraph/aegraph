@@ -148,9 +148,9 @@ export const VIEW_DEFINITIONS: Record<string, ViewDefinition> = {
     category: "content",
     description: "Browse and view documentation with file tree navigation",
   },
-  "unigraph-iframe": {
-    id: "unigraph-iframe",
-    title: "Unigraph Iframe",
+  "aegraph-iframe": {
+    id: "aegraph-iframe",
+    title: "Aegraph Iframe",
     icon: "🖼️",
     category: "development",
     description:

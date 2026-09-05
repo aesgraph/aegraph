@@ -4,20 +4,20 @@ nav_order: 1
 parent: "Capabilities"
 ---
 
-## From Static to Interactive:<br/>Converting Graphviz DOT Graphs into Enhanced Unigraph Graphs
+## From Static to Interactive:<br/>Converting Graphviz DOT Graphs into Enhanced Aegraph Graphs
 
 ### Overview
 
-### Unigraph offers a seamless way to import **Graphviz DOT** graphs and convert them into fully interactive, dynamic, and extensible **Unigraph Graphs**. This capability is essential for users who work with complex graph structures and are constrained by the limitations of static visualization tools like Graphviz.
+### Aegraph offers a seamless way to import **Graphviz DOT** graphs and convert them into fully interactive, dynamic, and extensible **Aegraph Graphs**. This capability is essential for users who work with complex graph structures and are constrained by the limitations of static visualization tools like Graphviz.
 
-### By importing DOT files into Unigraph, users can:
+### By importing DOT files into Aegraph, users can:
 
 - Make their graphs interactive and editable,
 - Overcome Graphviz's layouting and scalability limitations,
 - Attach semantics, types, metrics, and behaviors to graph components,
 - Generate multiple **views** and **perspectives** from a single underlying model.
 
-This feature makes Unigraph not just a visualizer, but a graph-native platform for managing **living models**.
+This feature makes Aegraph not just a visualizer, but a graph-native platform for managing **living models**.
 
 ---
 
@@ -25,15 +25,15 @@ This feature makes Unigraph not just a visualizer, but a graph-native platform f
 
 ### Graphviz has served as the de-facto standard for describing graphs declaratively via the DOT language. However, Graphviz is not suited for modern, large-scale, interactive, or multi-perspective graph-based workflows.
 
-| Graphviz Limitation                                | Unigraph Solution                                                                                                                                                                                                        |
+| Graphviz Limitation                                | Aegraph Solution                                                                                                                                                                                                        |
 | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Struggles with large, dense, or complex graphs** | Unigraph handles dense graphs interactively with panning, zooming, filtering, and subgraph exploration tools.                                                                                                            |
+| **Struggles with large, dense, or complex graphs** | Aegraph handles dense graphs interactively with panning, zooming, filtering, and subgraph exploration tools.                                                                                                            |
 | ---                                                | ---                                                                                                                                                                                                                      |
-| **Global layout control only**                     | In Graphviz, layouting applies globally. You cannot adjust the positioning of only a subset of nodes or edges. In Unigraph, you can override layouts locally and create partial or custom layouts within the same graph. |
-| **Static output**                                  | Graphviz renders static images or exports fixed layouts. Unigraph generates interactive, dynamic, and explorable graphs.                                                                                                 |
-| **Single-view limitation**                         | Graphviz renders a single visualization for each DOT file. Unigraph supports multiple **perspectives** derived from the same graph, each with custom filters, layouts, styles, or user-defined semantics.                |
-| **No runtime editing**                             | Graphviz graphs are defined in DOT source files. In Unigraph, users can edit nodes, edges, and attributes directly inside the graph view.                                                                                |
-| **No data integration**                            | Graphviz cannot link nodes to external datasets, live data, or dynamic content. Unigraph graphs can integrate with external data, annotations, documents, AI systems, and more.                                          |
+| **Global layout control only**                     | In Graphviz, layouting applies globally. You cannot adjust the positioning of only a subset of nodes or edges. In Aegraph, you can override layouts locally and create partial or custom layouts within the same graph. |
+| **Static output**                                  | Graphviz renders static images or exports fixed layouts. Aegraph generates interactive, dynamic, and explorable graphs.                                                                                                 |
+| **Single-view limitation**                         | Graphviz renders a single visualization for each DOT file. Aegraph supports multiple **perspectives** derived from the same graph, each with custom filters, layouts, styles, or user-defined semantics.                |
+| **No runtime editing**                             | Graphviz graphs are defined in DOT source files. In Aegraph, users can edit nodes, edges, and attributes directly inside the graph view.                                                                                |
+| **No data integration**                            | Graphviz cannot link nodes to external datasets, live data, or dynamic content. Aegraph graphs can integrate with external data, annotations, documents, AI systems, and more.                                          |
 
 ---
 
@@ -41,13 +41,13 @@ This feature makes Unigraph not just a visualizer, but a graph-native platform f
 
 1. **Import**
 
-   - Upload a Graphviz `.dot` file via Unigraph's import interface.
+   - Upload a Graphviz `.dot` file via Aegraph's import interface.
 
 1. **Conversion**
 
-   - The DOT graph is parsed and converted into Unigraph’s `SceneGraph`, mapping:
-     - Nodes → Unigraph Nodes,
-     - Edges → Unigraph Edges,
+   - The DOT graph is parsed and converted into Aegraph’s `SceneGraph`, mapping:
+     - Nodes → Aegraph Nodes,
+     - Edges → Aegraph Edges,
      - Attributes (optional) → Display styles or semantic properties.
 
 1. **Enhance**
@@ -72,7 +72,7 @@ This feature makes Unigraph not just a visualizer, but a graph-native platform f
      - Drag, reposition, edit,
      - Filter or search nodes,
      - Link to documents or APIs,
-     - Combine imported DOT graphs with other Unigraph-native graphs.
+     - Combine imported DOT graphs with other Aegraph-native graphs.
 
 ---
 
@@ -90,7 +90,7 @@ This feature makes Unigraph not just a visualizer, but a graph-native platform f
 
 ---
 
-### Why Unigraph Unlocks New Possibilities
+### Why Aegraph Unlocks New Possibilities
 
 ### Most graph-based workflows eventually hit a ceiling with static tools like Graphviz:
 
@@ -98,7 +98,7 @@ This feature makes Unigraph not just a visualizer, but a graph-native platform f
 - The inability to make **partial adjustments** prevents expressing subtle structures within graphs.
 - The lack of interactivity makes it hard to engage users beyond simply looking at the graph.
 
-**Unigraph** solves this by turning DOT into a canvas:
+**Aegraph** solves this by turning DOT into a canvas:
 
 - Graphs become interactive **knowledge spaces**.
 - Layouts are **modular**, and can be recomposed dynamically.
@@ -109,7 +109,7 @@ This feature makes Unigraph not just a visualizer, but a graph-native platform f
 
 ### Summary
 
-By bridging static graph definitions into Unigraph’s dynamic ecosystem, users unlock:
+By bridging static graph definitions into Aegraph’s dynamic ecosystem, users unlock:
 
 - Better visualization,
 - Better analysis,

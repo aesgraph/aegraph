@@ -1,6 +1,6 @@
 import type { ThemeId } from "@aesgraph/app-shell";
 
-const THEME_STORAGE_KEY = "unigraph-app-shell-theme";
+const THEME_STORAGE_KEY = "aegraph-app-shell-theme";
 
 /**
  * Gets the persisted theme from localStorage or falls back to the provided default

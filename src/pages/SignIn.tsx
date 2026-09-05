@@ -271,7 +271,7 @@ export default function SignIn() {
         }}
       >
         <h1 style={{ marginBottom: 8, fontWeight: 700, fontSize: 28 }}>
-          Unigraph
+          Aegraph
         </h1>
         <h2
           style={{

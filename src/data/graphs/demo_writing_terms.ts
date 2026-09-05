@@ -148,7 +148,7 @@ const TERMS = [
   { label: "graph automation", tags: ["terms", "graph automation"] },
 
   // Copilot & AI
-  { label: "Unigraph Copilot", tags: ["terms", "Unigraph Copilot"] },
+  { label: "Aegraph Copilot", tags: ["terms", "Aegraph Copilot"] },
   { label: "LLM integration", tags: ["terms", "LLM integration"] },
   { label: "zero-shot mapping", tags: ["terms", "zero-shot mapping"] },
   {
@@ -318,7 +318,7 @@ const createGraph = (): Graph => {
     type: "terms_root",
     label: "Writing Terms",
     userData: {
-      description: "Glossary of terms and concepts used in Unigraph writings.",
+      description: "Glossary of terms and concepts used in Aegraph writings.",
       tags: ["terms"],
     },
   });
@@ -346,7 +346,7 @@ export const demo_scenegraph_writing_terms = () => {
     graph: createGraph(),
     metadata: {
       name: "Writing Terms",
-      description: "Glossary of terms and concepts used in Unigraph writings.",
+      description: "Glossary of terms and concepts used in Aegraph writings.",
     },
     defaultAppConfig: {
       activeView: "ReactFlow",

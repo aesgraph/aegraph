@@ -2,7 +2,7 @@
 
 ## Overview
 
-The 2D Map view has been added to your Unigraph application! This map component uses React Leaflet with OpenStreetMap data and includes:
+The 2D Map view has been added to your Aegraph application! This map component uses React Leaflet with OpenStreetMap data and includes:
 
 - Custom markers with different colors for different location types
 - Interactive popups with location details
@@ -92,7 +92,7 @@ The map component is fully customizable:
 
 ## Usage
 
-1. Open your Unigraph application
+1. Open your Aegraph application
 2. Look for the "2D Map" view in the view selector (🗺️ icon)
 3. Click to open the interactive map
 4. Click on markers to see location details in popups

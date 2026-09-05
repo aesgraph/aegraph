@@ -63,7 +63,7 @@
               "children": []
             },
             {
-              "path": "assets/images/unigraphDesign",
+              "path": "assets/images/aegraphDesign",
               "type": "directory",
               "children": []
             }
@@ -303,25 +303,25 @@
       ]
     },
     {
-      "path": "unigraphTheory",
+      "path": "aegraphTheory",
       "type": "directory",
       "children": [
         {
-          "path": "unigraphTheory/apiForApis.md",
+          "path": "aegraphTheory/apiForApis.md",
           "type": "file",
           "name": "apiForApis.md",
           "title": "An API for APIs",
           "order": 4
         },
         {
-          "path": "unigraphTheory/dataDiscovery.md",
+          "path": "aegraphTheory/dataDiscovery.md",
           "type": "file",
           "name": "dataDiscovery.md",
           "title": "Data Discovery and Marketplace",
           "order": 4
         },
         {
-          "path": "unigraphTheory/index.md",
+          "path": "aegraphTheory/index.md",
           "type": "file",
           "name": "index.md",
           "title": "Theory",

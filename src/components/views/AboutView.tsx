@@ -151,7 +151,7 @@ const AboutView: React.FC = () => {
             fontWeight: "600",
           }}
         >
-          About Unigraph
+          About Aegraph
         </h1>
         <p
           style={{

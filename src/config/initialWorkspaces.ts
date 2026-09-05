@@ -425,7 +425,7 @@ export const initialWorkspaces: WorkspaceState[] = [
     name: "Documentation",
     timestamp: Date.now(),
     config: {
-      description: "A workspace for learning about unigraph",
+      description: "A workspace for learning about aegraph",
     },
     layout: {
       horizontal: [0, 20, 80], // 40% left, 0% center, 60% right

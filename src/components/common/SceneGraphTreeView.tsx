@@ -69,7 +69,7 @@ const SceneGraphTreeView: React.FC<SceneGraphTreeViewProps> = ({
               case "Thinker Graphs":
                 return "A knowledge graph of thinkers, their works, and relationships.";
               case "Writings":
-                return "Documentation and conceptual writings about Unigraph.";
+                return "Documentation and conceptual writings about Aegraph.";
               case "Test":
                 return "Test and demonstration scene graphs.";
               case "Base":

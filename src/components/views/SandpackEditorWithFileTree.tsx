@@ -29,7 +29,7 @@ export default function App() {
 
   return (
     <div style={{ padding: '20px', textAlign: 'center' }}>
-      <h1>Welcome to Unigraph Sandpack Editor!</h1>
+      <h1>Welcome to Aegraph Sandpack Editor!</h1>
       <p>This is a live code editor with custom file tree and preview.</p>
       <p>Count: {count}</p>
       <button 
@@ -111,9 +111,9 @@ export const debounce = (func, wait) => {
   };
 };`,
   "/package.json": `{
-  "name": "unigraph-sandpack-demo",
+  "name": "aegraph-sandpack-demo",
   "version": "1.0.0",
-  "description": "A demo project in Unigraph Sandpack Editor",
+  "description": "A demo project in Aegraph Sandpack Editor",
   "main": "index.js",
   "dependencies": {
     "react": "^18.0.0",
@@ -126,9 +126,9 @@ export const debounce = (func, wait) => {
     "eject": "react-scripts eject"
   }
 }`,
-  "/README.md": `# Unigraph Sandpack Demo
+  "/README.md": `# Aegraph Sandpack Demo
 
-This is a demo project showcasing the Unigraph Sandpack Editor with custom file tree.
+This is a demo project showcasing the Aegraph Sandpack Editor with custom file tree.
 
 ## Features
 

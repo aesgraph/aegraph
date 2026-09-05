@@ -9,6 +9,6 @@ Large Concept
 Practical Implementation
 {: .label .label-yellow }
 
-Unigraph is both a big idea and an application. It's more an art than a science to build the initial application while holding on to the bigger picture.
+Aegraph is both a big idea and an application. It's more an art than a science to build the initial application while holding on to the bigger picture.
 
-![UnigraphMesh](../assets/images/unigraph-mesh.png)
+![AegraphMesh](../assets/images/aegraph-mesh.png)

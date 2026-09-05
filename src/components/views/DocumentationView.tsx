@@ -10,7 +10,7 @@ import ResizableSplitter from "../common/ResizableSplitter";
 import "./DocumentationView.css";
 
 // Shown instead of the empty "Documentation Browser" placeholder on first load.
-const DEFAULT_DOC = "/markdowns/unigraph/UnigraphOverview.md";
+const DEFAULT_DOC = "/markdowns/aegraph/AegraphOverview.md";
 
 const DocumentationView: React.FC = () => {
   const { theme } = useTheme();
@@ -189,7 +189,7 @@ const DocumentationView: React.FC = () => {
             >
               Select a file from the sidebar to view its contents. The
               documentation includes guides, tutorials, and reference materials
-              for Unigraph.
+              for Aegraph.
             </p>
             <div
               className="documentation-features"
@@ -214,7 +214,7 @@ const DocumentationView: React.FC = () => {
                   <strong style={{ color: textColors.primary }}>
                     Overview
                   </strong>{" "}
-                  - Introduction and motivation for Unigraph
+                  - Introduction and motivation for Aegraph
                 </li>
                 <li
                   style={{
@@ -224,7 +224,7 @@ const DocumentationView: React.FC = () => {
                   <strong style={{ color: textColors.primary }}>
                     User Guide
                   </strong>{" "}
-                  - How to use Unigraph features
+                  - How to use Aegraph features
                 </li>
                 <li
                   style={{
@@ -264,7 +264,7 @@ const DocumentationView: React.FC = () => {
                   marginBottom: "16px",
                 }}
               >
-                Unigraph Demo Series
+                Aegraph Demo Series
               </h3>
               <div
                 style={{
@@ -279,7 +279,7 @@ const DocumentationView: React.FC = () => {
                   width="100%"
                   height="100%"
                   src="https://www.youtube.com/embed/fmJjdF8vKhM?list=PLr2u9sq9Pv82ipOKPFyfcAr-4OAy7G9Y5"
-                  title="Unigraph Demo Series"
+                  title="Aegraph Demo Series"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen

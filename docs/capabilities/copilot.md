@@ -11,7 +11,7 @@ parent: "Capabilities"
 
 ### Overview
 
-### Unigraph’s **Copilot Integration** enables users to construct, edit, and navigate complex graphs using **natural language**. This system serves as a conversational assistant that turns plain English commands into structured graph operations, allowing users to build and manage information without needing to understand internal schemas or UI complexities.
+### Aegraph’s **Copilot Integration** enables users to construct, edit, and navigate complex graphs using **natural language**. This system serves as a conversational assistant that turns plain English commands into structured graph operations, allowing users to build and manage information without needing to understand internal schemas or UI complexities.
 
 ### This feature dramatically lowers the barrier to entry for new users, speeds up prototyping, and augments expert workflows with an intuitive, low-friction interface.
 
@@ -27,7 +27,7 @@ parent: "Capabilities"
 - Modifying types or metadata in bulk.
 
 Natural language interfaces solve this by turning the **intent** of the user directly into **graph operations**, bypassing the need for low-level manipulation.
-Unigraph’s Copilot is not just a command parser — it is a **graph-literate assistant** that understands:
+Aegraph’s Copilot is not just a command parser — it is a **graph-literate assistant** that understands:
 
 - Graph structure,
 - Type hierarchies,
@@ -94,16 +94,16 @@ Unigraph’s Copilot is not just a command parser — it is a **graph-literate a
 
 ---
 
-### Why Unigraph’s Copilot is Unique
+### Why Aegraph’s Copilot is Unique
 
-### Many AI assistants offer basic command-line parsing. Unigraph’s Copilot is fundamentally different:
+### Many AI assistants offer basic command-line parsing. Aegraph’s Copilot is fundamentally different:
 
 ### ✅ **Graph-native:** It understands graph structure, centrality, types, relationships, and layout.
 
 ✅ **Semantically aware:** It leverages type information, entity tags, and metrics to ground user intent.
 ✅ **Contextual memory:** Operates within the current workspace, using what’s already present in your graph.
 ✅ **Perspective-driven:** Supports dynamic creation of alternate views without duplicating the model.
-✅ **Composable:** Combine with other Unigraph features (e.g. image annotation, dataset import, timeline mode) through language.
+✅ **Composable:** Combine with other Aegraph features (e.g. image annotation, dataset import, timeline mode) through language.
 
 ---
 
@@ -123,6 +123,6 @@ Unigraph’s Copilot is not just a command parser — it is a **graph-literate a
 
 ### Summary
 
-### Unigraph’s Copilot turns natural language into an interface for **thinking in graphs**. It lowers the activation energy for users to express and refine knowledge, while retaining the full power and expressiveness of Unigraph’s graph engine.
+### Aegraph’s Copilot turns natural language into an interface for **thinking in graphs**. It lowers the activation energy for users to express and refine knowledge, while retaining the full power and expressiveness of Aegraph’s graph engine.
 
-### With this integration, Unigraph becomes not just a modeling tool — but a **conversational knowledge system**, enabling everyone from non-technical users to domain experts to speak their ideas into structured form.
+### With this integration, Aegraph becomes not just a modeling tool — but a **conversational knowledge system**, enabling everyone from non-technical users to domain experts to speak their ideas into structured form.

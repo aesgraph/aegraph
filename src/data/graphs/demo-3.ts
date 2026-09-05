@@ -53,7 +53,7 @@ export const demo3 = () => {
     graph: constructModel(),
     // metadata: {
     //   name: "demo3",
-    //   description: "Basic viz for organization of unigraph",
+    //   description: "Basic viz for organization of aegraph",
     // },
   });
 };

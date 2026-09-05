@@ -131,7 +131,7 @@ export async function callLiveChatAPI(
     }
   }
 
-  // Always use the live unigraph route
+  // Always use the live aegraph route
   const response = await fetch(apiUrl, {
     method: "POST",
     headers,

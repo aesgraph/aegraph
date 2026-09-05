@@ -11,7 +11,7 @@ import { IPersistentStore, StoredSceneGraphInfo } from "./IPersistentStore";
  * Implementation of persistent storage for scene graphs using IndexedDB
  */
 export class PersistentStoreManager implements IPersistentStore {
-  private dbName = "unigraph-scene-graphs";
+  private dbName = "aegraph-scene-graphs";
   private dbVersion = 1;
   private storeName = "scene-graphs";
   private metadataStoreName = "metadata";

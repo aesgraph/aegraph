@@ -14,6 +14,33 @@
       ]
     },
     {
+      "path": "aegraphTheory",
+      "type": "directory",
+      "children": [
+        {
+          "path": "aegraphTheory/apiForApis.md",
+          "type": "file",
+          "name": "apiForApis.md",
+          "title": "An API for APIs",
+          "order": 4
+        },
+        {
+          "path": "aegraphTheory/dataDiscovery.md",
+          "type": "file",
+          "name": "dataDiscovery.md",
+          "title": "Data Discovery and Marketplace",
+          "order": 4
+        },
+        {
+          "path": "aegraphTheory/index.md",
+          "type": "file",
+          "name": "index.md",
+          "title": "Theory",
+          "order": 6
+        }
+      ]
+    },
+    {
       "path": "aesgraph",
       "type": "directory",
       "children": [
@@ -44,14 +71,14 @@
       "type": "directory",
       "children": [
         {
-          "path": "assets/css",
-          "type": "directory",
-          "children": []
-        },
-        {
           "path": "assets/images",
           "type": "directory",
           "children": [
+            {
+              "path": "assets/images/aegraphDesign",
+              "type": "directory",
+              "children": []
+            },
             {
               "path": "assets/images/loadFromSvg",
               "type": "directory",
@@ -305,29 +332,7 @@
     {
       "path": "unigraphTheory",
       "type": "directory",
-      "children": [
-        {
-          "path": "unigraphTheory/apiForApis.md",
-          "type": "file",
-          "name": "apiForApis.md",
-          "title": "An API for APIs",
-          "order": 4
-        },
-        {
-          "path": "unigraphTheory/dataDiscovery.md",
-          "type": "file",
-          "name": "dataDiscovery.md",
-          "title": "Data Discovery and Marketplace",
-          "order": 4
-        },
-        {
-          "path": "unigraphTheory/index.md",
-          "type": "file",
-          "name": "index.md",
-          "title": "Theory",
-          "order": 6
-        }
-      ]
+      "children": []
     },
     {
       "path": "useCases",

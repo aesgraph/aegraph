@@ -188,11 +188,11 @@ async function savePdfToSupabase() {
 
       console.log("Final PDF blob size:", pdfBlob.size, "bytes");
 
-      // Check if we're in the parent window (Unigraph app) context
+      // Check if we're in the parent window (Aegraph app) context
       if (window.parent === window) {
-        // We're not in an iframe, try to access Unigraph API directly
+        // We're not in an iframe, try to access Aegraph API directly
         showNotification(
-          "Cannot access Unigraph API from standalone PDF viewer",
+          "Cannot access Aegraph API from standalone PDF viewer",
           "error"
         );
         return;

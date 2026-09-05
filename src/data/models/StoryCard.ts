@@ -21,7 +21,7 @@ export interface StoryCard {
 }
 
 /**
- * Interface for entity representation in Unigraph
+ * Interface for entity representation in Aegraph
  */
 export interface StoryCardEntity {
   id: string;
@@ -534,7 +534,7 @@ export const SAMPLE_STORY_TREE = {
 };
 
 /**
- * Converts a StoryCard to a format compatible with Unigraph entity cache
+ * Converts a StoryCard to a format compatible with Aegraph entity cache
  */
 export function convertStoryCardToEntity(card: StoryCard): StoryCardEntity {
   return {

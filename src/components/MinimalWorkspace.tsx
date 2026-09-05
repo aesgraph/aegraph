@@ -42,7 +42,7 @@ const MinimalWorkspace: React.FC = () => {
 
       {/* Status Bar */}
       <div className={styles.statusBar}>
-        Ready • Unigraph • Scene Graph Loaded •{" "}
+        Ready • Aegraph • Scene Graph Loaded •{" "}
         {getCurrentSceneGraph() ? "Graph Active" : "No Graph"}
       </div>
     </div>

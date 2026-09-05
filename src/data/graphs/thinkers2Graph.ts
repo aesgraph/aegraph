@@ -50,28 +50,28 @@ export const thinkers2 = () => {
   // createEdge(
   //   "To create a new technology for communication",
   //   "by building",
-  //   "unigraph"
+  //   "aegraph"
   // );
-  // createEdge("To tell a story", "using", "unigraph");
-  // createEdge("To introduce a new way of thinking", "using", "unigraph");
+  // createEdge("To tell a story", "using", "aegraph");
+  // createEdge("To introduce a new way of thinking", "using", "aegraph");
   // createEdge(
   //   "To tell a story",
   //   "and therefore",
   //   "To introduce a new way of thinking"
   // );
-  // createEdge("unigraph", "is a", "unified graph analytics engine");
+  // createEdge("aegraph", "is a", "unified graph analytics engine");
   // createEdge(
-  //   "unigraph",
+  //   "aegraph",
   //   "functions as a",
   //   "interface between humans and graph technologies"
   // );
   // createEdge(
-  //   "unigraph",
+  //   "aegraph",
   //   "focuses on",
   //   "human interpretability of graph-based data"
   // );
-  // createEdge("unigraph", "could be used for", "knowledge graphs");
-  // createEdge("unigraph", "could be used for", "systems diagramming");
+  // createEdge("aegraph", "could be used for", "knowledge graphs");
+  // createEdge("aegraph", "could be used for", "systems diagramming");
 
   // //Response 1
   // // Customization Features

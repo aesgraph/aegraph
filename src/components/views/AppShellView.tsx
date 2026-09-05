@@ -21,7 +21,7 @@ import EntityTableV2 from "../common/EntityTableV2";
 import HtmlPageViewer from "../common/HtmlPageViewer";
 import LogViewer from "../common/LogViewer";
 import MarkdownViewer from "../common/MarkdownViewer";
-import UnigraphIframe from "../common/UnigraphIframe";
+import AegraphIframe from "../common/AegraphIframe";
 import SemanticWebQueryPanel from "../semantic/SemanticWebQueryPanel";
 import DevToolsView from "./DevToolsView";
 import DocumentationView from "./DocumentationView";
@@ -760,20 +760,20 @@ const reactFlowPanelV2View = {
   category: VIEW_DEFINITIONS["react-flow-panel-v2"].category,
 };
 
-const unigraphIframeView = {
-  id: VIEW_DEFINITIONS["unigraph-iframe"].id,
-  title: VIEW_DEFINITIONS["unigraph-iframe"].title,
-  icon: VIEW_DEFINITIONS["unigraph-iframe"].icon,
+const aegraphIframeView = {
+  id: VIEW_DEFINITIONS["aegraph-iframe"].id,
+  title: VIEW_DEFINITIONS["aegraph-iframe"].title,
+  icon: VIEW_DEFINITIONS["aegraph-iframe"].icon,
   component: (_props: any) => (
-    <UnigraphIframe
+    <AegraphIframe
       src="http://localhost:3001"
-      title="Live Unigraph Application"
+      title="Live Aegraph Application"
       width="100%"
       height={700}
       showControls={true}
       resizable={true}
       allowFullscreen={true}
-      loadingMessage="Loading Unigraph application..."
+      loadingMessage="Loading Aegraph application..."
       style={{
         border: "2px solid #e0e0e0",
         borderRadius: "8px",
@@ -785,7 +785,7 @@ const unigraphIframeView = {
       }}
     />
   ),
-  category: VIEW_DEFINITIONS["unigraph-iframe"].category,
+  category: VIEW_DEFINITIONS["aegraph-iframe"].category,
 };
 
 const htmlPageViewerView = {
@@ -1019,7 +1019,7 @@ const allViews = [
   edgeLegendView,
   wikipediaFactorGraphView,
   reactFlowPanelV2View,
-  unigraphIframeView,
+  aegraphIframeView,
   htmlPageViewerView,
   devToolsView,
   monacoEditorView,
@@ -1036,9 +1036,9 @@ const allViews = [
 ];
 
 // Example: Create a custom theme for demonstration
-const customUnigraphTheme: Theme = {
-  id: "unigraph-custom" as ThemeId,
-  name: "Unigraph Custom",
+const customAegraphTheme: Theme = {
+  id: "aegraph-custom" as ThemeId,
+  name: "Aegraph Custom",
   colors: {
     primary: "#4f46e5",
     secondary: "#06b6d4",
@@ -1078,7 +1078,7 @@ const customUnigraphTheme: Theme = {
 
 // Register our custom theme (this demonstrates how external projects can add themes)
 // Note: In a real implementation, this could be done via a theme registration API
-Object.assign(themes, { "unigraph-custom": customUnigraphTheme });
+Object.assign(themes, { "aegraph-custom": customAegraphTheme });
 
 registerViews(allViews);
 

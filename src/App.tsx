@@ -1285,7 +1285,7 @@ const AppContentInner = ({
   // Initialize lastWorkspaceLayout from localStorage on mount
   useEffect(() => {
     const savedLayoutId = localStorage.getItem(
-      "unigraph-last-workspace-layout"
+      "aegraph-last-workspace-layout"
     );
     if (savedLayoutId) {
       console.log(
@@ -1300,7 +1300,7 @@ const AppContentInner = ({
   useEffect(() => {
     if (lastWorkspaceLayout) {
       localStorage.setItem(
-        "unigraph-last-workspace-layout",
+        "aegraph-last-workspace-layout",
         lastWorkspaceLayout
       );
       console.log(
@@ -1308,7 +1308,7 @@ const AppContentInner = ({
         lastWorkspaceLayout
       );
     } else {
-      localStorage.removeItem("unigraph-last-workspace-layout");
+      localStorage.removeItem("aegraph-last-workspace-layout");
       console.log("Removed workspace layout ID from localStorage");
     }
   }, [lastWorkspaceLayout]);

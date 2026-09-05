@@ -6,9 +6,9 @@ parent: "Overview"
 
 ## Motivation
 
-Modeling and representing complex systems is essential for knowledge exchange, yet no universal standard exists. While graph-based thinking is widely used across disciplines, the development of comprehensive, adaptable software for system diagramming remains an open challenge. Unigraph seeks to address this gap by providing a flexible, standardized framework for graph-based information representation and sharing.
+Modeling and representing complex systems is essential for knowledge exchange, yet no universal standard exists. While graph-based thinking is widely used across disciplines, the development of comprehensive, adaptable software for system diagramming remains an open challenge. Aegraph seeks to address this gap by providing a flexible, standardized framework for graph-based information representation and sharing.
 
-Graph-based diagramming is a fundamental tool for communication, yet existing solutions are often built for specific functions, limiting their extensibility and interoperability. Many graph-based applications share core behaviors but remain siloed due to domain-specific constraints. Unigraph aims to unify this space by providing a standardized framework for graph-based application development and information exchange. Much like web frameworks such as React have streamlined development and established conventions for web applications, Unigraph seeks to do the same for graph-based systems—accelerating development, enhancing compatibility, and fostering a more cohesive ecosystem.
+Graph-based diagramming is a fundamental tool for communication, yet existing solutions are often built for specific functions, limiting their extensibility and interoperability. Many graph-based applications share core behaviors but remain siloed due to domain-specific constraints. Aegraph aims to unify this space by providing a standardized framework for graph-based application development and information exchange. Much like web frameworks such as React have streamlined development and established conventions for web applications, Aegraph seeks to do the same for graph-based systems—accelerating development, enhancing compatibility, and fostering a more cohesive ecosystem.
 
 _a quickly-made diagram_
 ![Diagram1](../assets/images/diagram1.png)
@@ -27,9 +27,9 @@ _a quickly-made diagram_
 [SigmaJS](https://www.sigmajs.org/)<br>
 [Cytoscape](https://js.cytoscape.org/)<br>
 
-### Graph-based Web Applications: pre-Unigraph
+### Graph-based Web Applications: pre-Aegraph
 
-Despite the shared behaviors and functionalities among these tools, they have been developed independently, leading to significant duplication of effort. Moreover, they often lack the flexibility needed for seamless integration into larger systems. Unigraph aims to establish a common framework for the client-side, enabling interoperability across graph-based applications and fostering a more cohesive ecosystem.
+Despite the shared behaviors and functionalities among these tools, they have been developed independently, leading to significant duplication of effort. Moreover, they often lack the flexibility needed for seamless integration into larger systems. Aegraph aims to establish a common framework for the client-side, enabling interoperability across graph-based applications and fostering a more cohesive ecosystem.
 
 _Existing Example Apps_
 

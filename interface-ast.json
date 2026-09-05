@@ -7,7 +7,7 @@
       "args": "T"
     },
     "returnType": "FullEntityType<T>",
-    "file": "/Users/andrew/workspace/unigraph/src/core/model/entity/abstractEntity.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/model/entity/abstractEntity.ts"
   },
   "AbstractEntity": {
     "kind": "class",
@@ -141,7 +141,7 @@
     "implements": [
       "IEntity"
     ],
-    "file": "/Users/andrew/workspace/unigraph/src/core/model/entity/abstractEntity.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/model/entity/abstractEntity.ts"
   },
   "Entity": {
     "kind": "class",
@@ -154,7 +154,7 @@
       }
     },
     "extends": "AbstractEntity",
-    "file": "/Users/andrew/workspace/unigraph/src/core/model/entity/abstractEntity.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/model/entity/abstractEntity.ts"
   },
   "EntityIds": {
     "kind": "class",
@@ -212,7 +212,7 @@
       }
     },
     "extends": "Set",
-    "file": "/Users/andrew/workspace/unigraph/src/core/model/entity/entityIds.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/model/entity/entityIds.ts"
   },
   "EntitiesContainer": {
     "kind": "class",
@@ -408,7 +408,7 @@
     "implements": [
       "Iterable"
     ],
-    "file": "/Users/andrew/workspace/unigraph/src/core/model/entity/entitiesContainer.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/model/entity/entitiesContainer.ts"
   },
   "Node": {
     "kind": "class",
@@ -473,7 +473,7 @@
       }
     },
     "extends": "AbstractEntity",
-    "file": "/Users/andrew/workspace/unigraph/src/core/model/Node.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/model/Node.ts"
   },
   "Edge": {
     "kind": "class",
@@ -543,7 +543,7 @@
       }
     },
     "extends": "AbstractEntity",
-    "file": "/Users/andrew/workspace/unigraph/src/core/model/Edge.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/model/Edge.ts"
   },
   "Graph": {
     "kind": "class",
@@ -795,7 +795,7 @@
         "returnType": "void"
       }
     },
-    "file": "/Users/andrew/workspace/unigraph/src/core/model/Graph.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/model/Graph.ts"
   },
   "createGraphologyGraph": {
     "kind": "function",
@@ -805,7 +805,7 @@
       "graph": "Graph"
     },
     "returnType": "Graph<Attributes, Attributes, Attributes>",
-    "file": "/Users/andrew/workspace/unigraph/src/core/layouts/layoutHelpers.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/layouts/layoutHelpers.ts"
   },
   "normalizePositions": {
     "kind": "function",
@@ -815,7 +815,7 @@
       "positions": "ObjectOf<Position>"
     },
     "returnType": "ObjectOf<Position>",
-    "file": "/Users/andrew/workspace/unigraph/src/core/layouts/layoutHelpers.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/layouts/layoutHelpers.ts"
   },
   "scalePositions": {
     "kind": "function",
@@ -827,7 +827,7 @@
       "height": "number"
     },
     "returnType": "ObjectOf<Position>",
-    "file": "/Users/andrew/workspace/unigraph/src/core/layouts/layoutHelpers.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/layouts/layoutHelpers.ts"
   },
   "centerPositions": {
     "kind": "function",
@@ -837,7 +837,7 @@
       "positions": "ObjectOf<Position>"
     },
     "returnType": "ObjectOf<Position>",
-    "file": "/Users/andrew/workspace/unigraph/src/core/layouts/layoutHelpers.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/layouts/layoutHelpers.ts"
   },
   "fitToRect": {
     "kind": "function",
@@ -849,7 +849,7 @@
       "positions": "ObjectOf<Position>"
     },
     "returnType": "ObjectOf<Position>",
-    "file": "/Users/andrew/workspace/unigraph/src/core/layouts/layoutHelpers.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/layouts/layoutHelpers.ts"
   },
   "GraphBuilder": {
     "kind": "class",
@@ -866,7 +866,7 @@
         "returnType": "Graph"
       }
     },
-    "file": "/Users/andrew/workspace/unigraph/src/core/model/GraphBuilder.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/model/GraphBuilder.ts"
   },
   "RenderingManager": {
     "kind": "class",
@@ -950,7 +950,7 @@
         "returnType": "RenderingConfig"
       }
     },
-    "file": "/Users/andrew/workspace/unigraph/src/controllers/RenderingManager.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/controllers/RenderingManager.ts"
   },
   "EntityCache": {
     "kind": "class",
@@ -998,7 +998,7 @@
         "returnType": "IEntity<string>"
       }
     },
-    "file": "/Users/andrew/workspace/unigraph/src/core/model/entity/entityCache.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/model/entity/entityCache.ts"
   },
   "SceneGraph": {
     "kind": "class",
@@ -1217,7 +1217,7 @@
         "returnType": "void"
       }
     },
-    "file": "/Users/andrew/workspace/unigraph/src/core/model/SceneGraph.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/model/SceneGraph.ts"
   },
   "GraphologyLayoutEngine": {
     "kind": "class",
@@ -1232,7 +1232,7 @@
         "returnType": "Promise<ObjectOf<Position>>"
       }
     },
-    "file": "/Users/andrew/workspace/unigraph/src/core/layouts/GraphologyLayoutEngine.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/layouts/GraphologyLayoutEngine.ts"
   },
   "extractPositionsFromGraphlogyGraph": {
     "kind": "function",
@@ -1242,7 +1242,7 @@
       "graph": "Graph<Attributes, Attributes, Attributes>"
     },
     "returnType": "ObjectOf<Position>",
-    "file": "/Users/andrew/workspace/unigraph/src/core/layouts/GraphologyLayoutEngine.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/layouts/GraphologyLayoutEngine.ts"
   },
   "DisplayManager": {
     "kind": "class",
@@ -1270,7 +1270,7 @@
         "returnType": "void"
       }
     },
-    "file": "/Users/andrew/workspace/unigraph/src/core/model/DisplayManager.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/model/DisplayManager.ts"
   },
   "extractIntersection": {
     "kind": "function",
@@ -1281,7 +1281,7 @@
       "id": "string"
     },
     "returnType": "T",
-    "file": "/Users/andrew/workspace/unigraph/src/core/webgl/webglHelpers.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/webgl/webglHelpers.ts"
   },
   "extractIntersections": {
     "kind": "function",
@@ -1292,7 +1292,7 @@
       "id": "string"
     },
     "returnType": "T[]",
-    "file": "/Users/andrew/workspace/unigraph/src/core/webgl/webglHelpers.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/webgl/webglHelpers.ts"
   },
   "getImagePixelCoordinates": {
     "kind": "function",
@@ -1303,7 +1303,7 @@
       "renderer": "WebGLRenderer"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/core/webgl/webglHelpers.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/webgl/webglHelpers.ts"
   },
   "convertPixelCoordinatesToPositions": {
     "kind": "function",
@@ -1313,7 +1313,7 @@
       "pixelCoordinates": "{ x: number; y: number; width: number; height: number; }"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/core/webgl/webglHelpers.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/webgl/webglHelpers.ts"
   },
   "extractSelectionBoxGroups": {
     "kind": "function",
@@ -1323,7 +1323,7 @@
       "intersects": "Intersection<Object3D<Object3DEventMap>>[]"
     },
     "returnType": "SelectionBoxGroup[]",
-    "file": "/Users/andrew/workspace/unigraph/src/core/webgl/selectionArea.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/webgl/selectionArea.ts"
   },
   "findNodeInForceGraph": {
     "kind": "function",
@@ -1334,7 +1334,7 @@
       "nodeId": "NodeId"
     },
     "returnType": "any",
-    "file": "/Users/andrew/workspace/unigraph/src/core/force-graph/forceGraphHelpers.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/force-graph/forceGraphHelpers.ts"
   },
   "selectNodesInSelectionBox": {
     "kind": "function",
@@ -1346,7 +1346,7 @@
       "selectionBox": "SelectionBox"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/core/force-graph/createForceGraph.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/force-graph/createForceGraph.ts"
   },
   "updateHighlight": {
     "kind": "function",
@@ -1356,7 +1356,7 @@
       "graph": "ForceGraph3DInstance"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/core/force-graph/createForceGraph.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/force-graph/createForceGraph.ts"
   },
   "ForceGraphManager": {
     "kind": "class",
@@ -1417,7 +1417,7 @@
         "returnType": "void"
       }
     },
-    "file": "/Users/andrew/workspace/unigraph/src/core/force-graph/ForceGraphManager.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/force-graph/ForceGraphManager.ts"
   },
   "computeGraphBounds": {
     "kind": "function",
@@ -1427,7 +1427,7 @@
       "nodes": "Node[]"
     },
     "returnType": "GraphBounds",
-    "file": "/Users/andrew/workspace/unigraph/src/_experimental/exampleCode/forceGraph3dCamera.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/_experimental/exampleCode/forceGraph3dCamera.ts"
   },
   "setupDynamicCamera": {
     "kind": "function",
@@ -1437,7 +1437,7 @@
       "graph": "ForceGraph3DInstance"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/_experimental/exampleCode/forceGraph3dCamera.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/_experimental/exampleCode/forceGraph3dCamera.ts"
   },
   "SongAnnotation": {
     "kind": "class",
@@ -1474,7 +1474,7 @@
       }
     },
     "extends": "AbstractEntity",
-    "file": "/Users/andrew/workspace/unigraph/src/_experimental/mp3/SongAnnotation.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/_experimental/mp3/SongAnnotation.ts"
   },
   "runManagedAnimation": {
     "kind": "function",
@@ -1486,7 +1486,7 @@
       "config": "AnimationConfig"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/animationRunner.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/animationRunner.ts"
   },
   "transitionToConfig": {
     "kind": "function",
@@ -1498,7 +1498,7 @@
       "options": "TransitionOptions"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/transition.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/transition.ts"
   },
   "playConfigSequence": {
     "kind": "function",
@@ -1510,7 +1510,7 @@
       "options": "SequenceConfig"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/configSequencePlayer.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/configSequencePlayer.ts"
   },
   "generateRandomConfig": {
     "kind": "function",
@@ -1521,7 +1521,7 @@
       "config": "SongVisualizationConfig"
     },
     "returnType": "IForceGraphRenderConfig",
-    "file": "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/songAnnotationTransitions.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/songAnnotationTransitions.ts"
   },
   "generateConfigsFromAnnotations": {
     "kind": "function",
@@ -1532,7 +1532,7 @@
       "options": "Partial<ConfigGeneratorOptions>"
     },
     "returnType": "TimedConfig[]",
-    "file": "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/annotationConfigGenerator.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/annotationConfigGenerator.ts"
   },
   "createAnnotationNodeSpawner": {
     "kind": "function",
@@ -1545,7 +1545,7 @@
       "sceneGraph": "SceneGraph"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/annotationNodeSpawner.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/annotationNodeSpawner.ts"
   },
   "applyRandomEffects": {
     "kind": "function",
@@ -1557,7 +1557,7 @@
       "config": "RandomEffectsConfig"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/applyRandomEffects2.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/applyRandomEffects2.ts"
   },
   "applyStaggeredEffects": {
     "kind": "function",
@@ -1569,7 +1569,7 @@
       "config": "StaggeredEffectsConfig"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/applyStaggeredEffects.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/applyStaggeredEffects.ts"
   },
   "pulsateNodes": {
     "kind": "function",
@@ -1581,7 +1581,7 @@
       "options": "PulsateOptions"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/pulsate.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/pulsate.ts"
   },
   "createSongVisualizationTimeline": {
     "kind": "function",
@@ -1593,7 +1593,7 @@
       "options": "SongVisualizationConfig"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/songAnnotationTransitions.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/songAnnotationTransitions.ts"
   },
   "bfsQuery": {
     "kind": "function",
@@ -1606,7 +1606,7 @@
       "totalLimit": "number"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/_experimental/yasgui/yasguiHelpers.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/_experimental/yasgui/yasguiHelpers.ts"
   },
   "createBlobMesh": {
     "kind": "function",
@@ -1618,7 +1618,7 @@
       "nodesPerShell": "number"
     },
     "returnType": "Graph",
-    "file": "/Users/andrew/workspace/unigraph/src/data/graphs/blobMesh.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/data/graphs/blobMesh.ts"
   },
   "GraphvizLayoutEngine": {
     "kind": "class",
@@ -1645,7 +1645,7 @@
         "returnType": "ObjectOf<Position>"
       }
     },
-    "file": "/Users/andrew/workspace/unigraph/src/core/layouts/GraphvizLayoutEngine.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/layouts/GraphvizLayoutEngine.ts"
   },
   "getLayoutWorker": {
     "kind": "function",
@@ -1653,7 +1653,7 @@
     "references": {},
     "arguments": {},
     "returnType": "Worker",
-    "file": "/Users/andrew/workspace/unigraph/src/core/layouts/LayoutEngine.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/layouts/LayoutEngine.ts"
   },
   "LayoutEngine": {
     "kind": "class",
@@ -1693,7 +1693,7 @@
         "returnType": "Promise<ILayoutEngineResult>"
       }
     },
-    "file": "/Users/andrew/workspace/unigraph/src/core/layouts/LayoutEngine.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/layouts/LayoutEngine.ts"
   },
   "applyLayoutAndTriggerAppUpdate": {
     "kind": "function",
@@ -1703,7 +1703,7 @@
       "layout": "Layout"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/store/sceneGraphHooks.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/store/sceneGraphHooks.ts"
   },
   "computeLayoutAndTriggerAppUpdate": {
     "kind": "function",
@@ -1715,7 +1715,7 @@
       "nodeSelection": "EntityIds<NodeId>"
     },
     "returnType": "Promise<ILayoutEngineResult>",
-    "file": "/Users/andrew/workspace/unigraph/src/store/sceneGraphHooks.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/store/sceneGraphHooks.ts"
   },
   "computeLayoutAndTriggerUpdateForCurrentSceneGraph": {
     "kind": "function",
@@ -1726,7 +1726,7 @@
       "nodeSelection": "EntityIds<NodeId>"
     },
     "returnType": "Promise<ILayoutEngineResult>",
-    "file": "/Users/andrew/workspace/unigraph/src/store/sceneGraphHooks.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/store/sceneGraphHooks.ts"
   },
   "saveWebpage": {
     "kind": "function",
@@ -1736,7 +1736,7 @@
       "webpage": "Webpage"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/api/webpagesApi.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/api/webpagesApi.ts"
   },
   "listWebpages": {
     "kind": "function",
@@ -1744,7 +1744,7 @@
     "references": {},
     "arguments": {},
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/api/webpagesApi.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/api/webpagesApi.ts"
   },
   "getWebpage": {
     "kind": "function",
@@ -1754,7 +1754,7 @@
       "id": "string"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/api/webpagesApi.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/api/webpagesApi.ts"
   },
   "saveAnnotation": {
     "kind": "function",
@@ -1764,7 +1764,7 @@
       "annotation": "Annotation"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/api/annotationsApi.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/api/annotationsApi.ts"
   },
   "listAnnotations": {
     "kind": "function",
@@ -1772,7 +1772,7 @@
     "references": {},
     "arguments": {},
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/api/annotationsApi.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/api/annotationsApi.ts"
   },
   "getAnnotation": {
     "kind": "function",
@@ -1782,7 +1782,7 @@
       "id": "string"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/api/annotationsApi.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/api/annotationsApi.ts"
   },
   "serializeSceneGraphToJson": {
     "kind": "function",
@@ -1792,7 +1792,7 @@
       "sceneGraph": "SceneGraph"
     },
     "returnType": "string",
-    "file": "/Users/andrew/workspace/unigraph/src/core/serializers/toFromJson.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/serializers/toFromJson.ts"
   },
   "deserializeSceneGraphFromJson": {
     "kind": "function",
@@ -1802,7 +1802,7 @@
       "json": "string"
     },
     "returnType": "SceneGraph",
-    "file": "/Users/andrew/workspace/unigraph/src/core/serializers/toFromJson.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/serializers/toFromJson.ts"
   },
   "compressSceneGraphJsonForUrl": {
     "kind": "function",
@@ -1812,7 +1812,7 @@
       "sceneGraph": "SceneGraph"
     },
     "returnType": "string",
-    "file": "/Users/andrew/workspace/unigraph/src/core/serializers/toFromJson.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/serializers/toFromJson.ts"
   },
   "decompressSceneGraphJsonFromUrl": {
     "kind": "function",
@@ -1822,7 +1822,7 @@
       "compressed": "string"
     },
     "returnType": "SceneGraph",
-    "file": "/Users/andrew/workspace/unigraph/src/core/serializers/toFromJson.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/serializers/toFromJson.ts"
   },
   "saveProjectToSupabase": {
     "kind": "function",
@@ -1832,7 +1832,7 @@
       "sceneGraph": "SceneGraph"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/api/supabaseProjects.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/api/supabaseProjects.ts"
   },
   "listProjects": {
     "kind": "function",
@@ -1840,7 +1840,7 @@
     "references": {},
     "arguments": {},
     "returnType": "Promise<Omit<SupabaseProject, \"data\">[]>",
-    "file": "/Users/andrew/workspace/unigraph/src/api/supabaseProjects.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/api/supabaseProjects.ts"
   },
   "getProject": {
     "kind": "function",
@@ -1850,7 +1850,7 @@
       "params": "{ id?: string; name?: string; }"
     },
     "returnType": "Promise<SupabaseProject>",
-    "file": "/Users/andrew/workspace/unigraph/src/api/supabaseProjects.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/api/supabaseProjects.ts"
   },
   "deleteProject": {
     "kind": "function",
@@ -1860,7 +1860,7 @@
       "projectId": "string"
     },
     "returnType": "Promise<void>",
-    "file": "/Users/andrew/workspace/unigraph/src/api/supabaseProjects.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/api/supabaseProjects.ts"
   },
   "updateProject": {
     "kind": "function",
@@ -1871,7 +1871,7 @@
       "updates": "UpdateProjectParams"
     },
     "returnType": "Promise<SupabaseProject>",
-    "file": "/Users/andrew/workspace/unigraph/src/api/supabaseProjects.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/api/supabaseProjects.ts"
   },
   "exportProject": {
     "kind": "function",
@@ -1882,7 +1882,7 @@
       "projectName": "string"
     },
     "returnType": "Promise<ProjectActionResult>",
-    "file": "/Users/andrew/workspace/unigraph/src/api/projectActions.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/api/projectActions.ts"
   },
   "deleteProjectAction": {
     "kind": "function",
@@ -1893,7 +1893,7 @@
       "projectName": "string"
     },
     "returnType": "Promise<ProjectActionResult>",
-    "file": "/Users/andrew/workspace/unigraph/src/api/projectActions.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/api/projectActions.ts"
   },
   "copyProject": {
     "kind": "function",
@@ -1904,7 +1904,7 @@
       "newName": "string"
     },
     "returnType": "Promise<ProjectActionResult>",
-    "file": "/Users/andrew/workspace/unigraph/src/api/projectActions.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/api/projectActions.ts"
   },
   "editProject": {
     "kind": "function",
@@ -1915,7 +1915,7 @@
       "updates": "UpdateProjectParams"
     },
     "returnType": "Promise<ProjectActionResult>",
-    "file": "/Users/andrew/workspace/unigraph/src/api/projectActions.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/api/projectActions.ts"
   },
   "loadProject": {
     "kind": "function",
@@ -1925,7 +1925,7 @@
       "projectId": "string"
     },
     "returnType": "Promise<ProjectActionResult>",
-    "file": "/Users/andrew/workspace/unigraph/src/api/projectActions.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/api/projectActions.ts"
   },
   "handleProjectActionResult": {
     "kind": "function",
@@ -1937,7 +1937,7 @@
       "onError": "(message: string) => void"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/api/projectActions.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/api/projectActions.ts"
   },
   "confirmAction": {
     "kind": "function",
@@ -1947,7 +1947,7 @@
       "message": "string"
     },
     "returnType": "Promise<boolean>",
-    "file": "/Users/andrew/workspace/unigraph/src/api/projectActions.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/api/projectActions.ts"
   },
   "extractReferences": {
     "kind": "function",
@@ -1958,7 +1958,7 @@
       "allTypes": "Set<string>"
     },
     "returnType": "string[]",
-    "file": "/Users/andrew/workspace/unigraph/src/data/demo-graphs/interfaceAstToSceneGraph.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/data/demo-graphs/interfaceAstToSceneGraph.ts"
   },
   "demo_scenegraph_ast": {
     "kind": "function",
@@ -1968,7 +1968,7 @@
       "url": "string"
     },
     "returnType": "Promise<SceneGraph>",
-    "file": "/Users/andrew/workspace/unigraph/src/data/demo-graphs/interfaceAstToSceneGraph.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/data/demo-graphs/interfaceAstToSceneGraph.ts"
   },
   "KnowledgeGraphBuilder": {
     "kind": "class",
@@ -1999,7 +1999,7 @@
         "returnType": "Graph"
       }
     },
-    "file": "/Users/andrew/workspace/unigraph/src/data/graphs/thinkers1Graph.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/data/graphs/thinkers1Graph.ts"
   },
   "loadSvgFromUrl": {
     "kind": "function",
@@ -2010,7 +2010,7 @@
       "options": "any"
     },
     "returnType": "Promise<SceneGraph>",
-    "file": "/Users/andrew/workspace/unigraph/src/utils/svgLoader.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/utils/svgLoader.ts"
   },
   "findClosestNode": {
     "kind": "function",
@@ -2022,7 +2022,7 @@
       "y": "number"
     },
     "returnType": "string",
-    "file": "/Users/andrew/workspace/unigraph/src/utils/svgLoader.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/utils/svgLoader.ts"
   },
   "generateRandomNodes": {
     "kind": "function",
@@ -2033,7 +2033,7 @@
       "options": "RandomNodeOptions"
     },
     "returnType": "NodeId[]",
-    "file": "/Users/andrew/workspace/unigraph/src/utils/graphUtils.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/utils/graphUtils.ts"
   },
   "generateRandomEdges": {
     "kind": "function",
@@ -2045,7 +2045,7 @@
       "options": "RandomEdgeOptions"
     },
     "returnType": "number",
-    "file": "/Users/andrew/workspace/unigraph/src/utils/graphUtils.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/utils/graphUtils.ts"
   },
   "generateRandomGraph": {
     "kind": "function",
@@ -2057,7 +2057,7 @@
       "edgeOptions": "RandomEdgeOptions"
     },
     "returnType": "{ nodeIds: NodeId[]; edgeCount: number; }",
-    "file": "/Users/andrew/workspace/unigraph/src/utils/graphUtils.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/utils/graphUtils.ts"
   },
   "addRandomCluster": {
     "kind": "function",
@@ -2070,7 +2070,7 @@
       "connectivityDensity": "number"
     },
     "returnType": "NodeId[]",
-    "file": "/Users/andrew/workspace/unigraph/src/utils/graphUtils.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/utils/graphUtils.ts"
   },
   "createStoryCard": {
     "kind": "function",
@@ -2082,7 +2082,7 @@
       "description": "string"
     },
     "returnType": "StoryCard",
-    "file": "/Users/andrew/workspace/unigraph/src/data/models/StoryCard.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/data/models/StoryCard.ts"
   },
   "createMarkdownStoryCard": {
     "kind": "function",
@@ -2094,7 +2094,7 @@
       "markdownFile": "string"
     },
     "returnType": "StoryCard",
-    "file": "/Users/andrew/workspace/unigraph/src/data/models/StoryCard.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/data/models/StoryCard.ts"
   },
   "addStoryCardToGraph": {
     "kind": "function",
@@ -2105,7 +2105,7 @@
       "card": "StoryCard"
     },
     "returnType": "NodeId",
-    "file": "/Users/andrew/workspace/unigraph/src/data/models/StoryCard.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/data/models/StoryCard.ts"
   },
   "createStoryChoice": {
     "kind": "function",
@@ -2118,7 +2118,7 @@
       "choiceLabel": "string"
     },
     "returnType": "EdgeId",
-    "file": "/Users/andrew/workspace/unigraph/src/data/models/StoryCard.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/data/models/StoryCard.ts"
   },
   "getChildStoryCards": {
     "kind": "function",
@@ -2129,7 +2129,7 @@
       "parentCardId": "NodeId"
     },
     "returnType": "NodeId[]",
-    "file": "/Users/andrew/workspace/unigraph/src/data/models/StoryCard.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/data/models/StoryCard.ts"
   },
   "getParentStoryCard": {
     "kind": "function",
@@ -2140,7 +2140,7 @@
       "childCardId": "NodeId"
     },
     "returnType": "NodeId",
-    "file": "/Users/andrew/workspace/unigraph/src/data/models/StoryCard.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/data/models/StoryCard.ts"
   },
   "findRootStoryCard": {
     "kind": "function",
@@ -2150,7 +2150,7 @@
       "sceneGraph": "SceneGraph"
     },
     "returnType": "NodeId",
-    "file": "/Users/andrew/workspace/unigraph/src/data/models/StoryCard.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/data/models/StoryCard.ts"
   },
   "reconstructStoryHierarchy": {
     "kind": "function",
@@ -2161,7 +2161,7 @@
       "rootNodeId": "NodeId"
     },
     "returnType": "{ card: StoryCard; children: { card: StoryCard; children: any[]; }[]; }",
-    "file": "/Users/andrew/workspace/unigraph/src/data/models/StoryCard.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/data/models/StoryCard.ts"
   },
   "addStoryTreeToGraph": {
     "kind": "function",
@@ -2172,7 +2172,7 @@
       "storyTree": "any"
     },
     "returnType": "Map<string, NodeId>",
-    "file": "/Users/andrew/workspace/unigraph/src/data/models/StoryCard.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/data/models/StoryCard.ts"
   },
   "convertStoryCardToEntity": {
     "kind": "function",
@@ -2182,7 +2182,7 @@
       "card": "StoryCard"
     },
     "returnType": "StoryCardEntity",
-    "file": "/Users/andrew/workspace/unigraph/src/data/models/StoryCard.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/data/models/StoryCard.ts"
   },
   "createStoryGraphFromTree": {
     "kind": "function",
@@ -2192,7 +2192,7 @@
       "storyTree": "any"
     },
     "returnType": "SceneGraph",
-    "file": "/Users/andrew/workspace/unigraph/src/data/models/StoryCard.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/data/models/StoryCard.ts"
   },
   "exportStoryTree": {
     "kind": "function",
@@ -2203,7 +2203,7 @@
       "rootNodeId": "NodeId"
     },
     "returnType": "any",
-    "file": "/Users/andrew/workspace/unigraph/src/data/models/StoryCard.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/data/models/StoryCard.ts"
   },
   "StoryCard": {
     "kind": "class",
@@ -2290,7 +2290,7 @@
       }
     },
     "extends": "AbstractEntity",
-    "file": "/Users/andrew/workspace/unigraph/src/core/types/StoryCard.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/types/StoryCard.ts"
   },
   "createFeatureSet": {
     "kind": "function",
@@ -2301,7 +2301,7 @@
       "features": "E"
     },
     "returnType": "FeatureSet<E>",
-    "file": "/Users/andrew/workspace/unigraph/src/data/graphs/Feature.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/data/graphs/Feature.ts"
   },
   "createSphereMesh": {
     "kind": "function",
@@ -2312,7 +2312,7 @@
       "segments": "number"
     },
     "returnType": "Graph",
-    "file": "/Users/andrew/workspace/unigraph/src/data/graphs/sphereMesh.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/data/graphs/sphereMesh.ts"
   },
   "createCylindricalMesh": {
     "kind": "function",
@@ -2324,7 +2324,7 @@
       "longitudeCount": "number"
     },
     "returnType": "Graph",
-    "file": "/Users/andrew/workspace/unigraph/src/data/graphs/sphericalMesh.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/data/graphs/sphericalMesh.ts"
   },
   "getAllDemoSceneGraphCategories": {
     "kind": "function",
@@ -2332,7 +2332,7 @@
     "references": {},
     "arguments": {},
     "returnType": "string[]",
-    "file": "/Users/andrew/workspace/unigraph/src/data/DemoSceneGraphs.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/data/DemoSceneGraphs.ts"
   },
   "getDemoSceneGraphTree": {
     "kind": "function",
@@ -2340,7 +2340,7 @@
     "references": {},
     "arguments": {},
     "returnType": "DemoSceneGraphTree",
-    "file": "/Users/andrew/workspace/unigraph/src/data/DemoSceneGraphs.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/data/DemoSceneGraphs.ts"
   },
   "setShowLoadSceneGraphWindow": {
     "kind": "function",
@@ -2350,7 +2350,7 @@
       "show": "boolean"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/store/dialogStore.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/store/dialogStore.ts"
   },
   "setShowSaveSceneGraphDialog": {
     "kind": "function",
@@ -2360,7 +2360,7 @@
       "show": "boolean"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/store/dialogStore.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/store/dialogStore.ts"
   },
   "setShowSaveAsNewProjectDialog": {
     "kind": "function",
@@ -2370,7 +2370,7 @@
       "show": "boolean"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/store/dialogStore.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/store/dialogStore.ts"
   },
   "setShowPathAnalysis": {
     "kind": "function",
@@ -2380,7 +2380,7 @@
       "show": "boolean"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/store/dialogStore.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/store/dialogStore.ts"
   },
   "setShowEntityTables": {
     "kind": "function",
@@ -2390,7 +2390,7 @@
       "show": "boolean"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/store/dialogStore.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/store/dialogStore.ts"
   },
   "setShowEntityTablesV2": {
     "kind": "function",
@@ -2400,7 +2400,7 @@
       "show": "boolean"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/store/dialogStore.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/store/dialogStore.ts"
   },
   "setShowLayoutManager": {
     "kind": "function",
@@ -2411,7 +2411,7 @@
       "show": "boolean"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/store/dialogStore.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/store/dialogStore.ts"
   },
   "setShowSceneGraphDetailView": {
     "kind": "function",
@@ -2422,7 +2422,7 @@
       "readOnly": "boolean"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/store/dialogStore.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/store/dialogStore.ts"
   },
   "setShowFilterManager": {
     "kind": "function",
@@ -2433,7 +2433,7 @@
       "show": "boolean"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/store/dialogStore.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/store/dialogStore.ts"
   },
   "setShowFilterWindow": {
     "kind": "function",
@@ -2443,7 +2443,7 @@
       "show": "boolean"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/store/dialogStore.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/store/dialogStore.ts"
   },
   "setShowCommandPalette": {
     "kind": "function",
@@ -2453,7 +2453,7 @@
       "open": "boolean"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/store/dialogStore.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/store/dialogStore.ts"
   },
   "WebLLMClient": {
     "kind": "class",
@@ -2498,7 +2498,7 @@
         "returnType": "Promise<string>"
       }
     },
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/WebLLMClient.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/WebLLMClient.ts"
   },
   "analyzeDocumentForTags": {
     "kind": "function",
@@ -2509,7 +2509,7 @@
       "llmClient": "WebLLMClient"
     },
     "returnType": "Promise<string[]>",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/runConversationsAnalysis.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/runConversationsAnalysis.ts"
   },
   "analyzeAllDocuments": {
     "kind": "function",
@@ -2520,7 +2520,7 @@
       "onProgress": "(progress: AnalysisProgress) => void"
     },
     "returnType": "Promise<DocumentTags>",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/runConversationsAnalysis.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/runConversationsAnalysis.ts"
   },
   "applyTagsToDocuments": {
     "kind": "function",
@@ -2531,7 +2531,7 @@
       "documentTags": "DocumentTags"
     },
     "returnType": "Promise<number>",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/runConversationsAnalysis.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/runConversationsAnalysis.ts"
   },
   "exportTagsToJson": {
     "kind": "function",
@@ -2542,7 +2542,7 @@
       "filename": "string"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/runConversationsAnalysis.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/runConversationsAnalysis.ts"
   },
   "runConversationsAnalysis": {
     "kind": "function",
@@ -2555,7 +2555,7 @@
       "onProgress": "(progress: AnalysisProgress) => void"
     },
     "returnType": "Promise<DocumentTags>",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/runConversationsAnalysis.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/runConversationsAnalysis.ts"
   },
   "MenuConfig": {
     "kind": "class",
@@ -2581,7 +2581,7 @@
         "returnType": "MenuConfigType"
       }
     },
-    "file": "/Users/andrew/workspace/unigraph/src/components/MenuConfig.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/MenuConfig.ts"
   },
   "fetchChatGptConversation": {
     "kind": "function",
@@ -2591,7 +2591,7 @@
       "url": "string"
     },
     "returnType": "Promise<ParsedConversation>",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
   },
   "parseConversationsJson": {
     "kind": "function",
@@ -2601,7 +2601,7 @@
       "data": "any"
     },
     "returnType": "ParsedConversation[]",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
   },
   "parseConversationItem": {
     "kind": "function",
@@ -2611,7 +2611,7 @@
       "conversation": "any"
     },
     "returnType": "ParsedConversation",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
   },
   "createFormattedConversationDocument": {
     "kind": "function",
@@ -2621,7 +2621,7 @@
       "conversation": "ParsedConversation"
     },
     "returnType": "string",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
   },
   "getRoleLabel": {
     "kind": "function",
@@ -2631,7 +2631,7 @@
       "role": "string"
     },
     "returnType": "string",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
   },
   "importChatGptConversation": {
     "kind": "function",
@@ -2643,7 +2643,7 @@
       "createMessageNodes": "boolean"
     },
     "returnType": "Promise<NodeId>",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
   },
   "getLabelForRole": {
     "kind": "function",
@@ -2653,7 +2653,7 @@
       "role": "string"
     },
     "returnType": "string",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
   },
   "getTypeForRole": {
     "kind": "function",
@@ -2663,7 +2663,7 @@
       "role": "string"
     },
     "returnType": "string",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
   },
   "importChatGptFromFile": {
     "kind": "function",
@@ -2676,7 +2676,7 @@
       "conversationSampleRatio": "number"
     },
     "returnType": "Promise<NodeId | NodeId[]>",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
   },
   "importParsedConversation": {
     "kind": "function",
@@ -2689,7 +2689,7 @@
       "createMessageNodes": "boolean"
     },
     "returnType": "Promise<NodeId>",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
   },
   "downsampleConversations": {
     "kind": "function",
@@ -2700,7 +2700,7 @@
       "ratio": "number"
     },
     "returnType": "ParsedConversation[]",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
   },
   "importConversations": {
     "kind": "function",
@@ -2711,7 +2711,7 @@
       "sceneGraph": "SceneGraph"
     },
     "returnType": "Promise<{ imported: number; matched: number; }>",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/conversationsImporter.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/conversationsImporter.ts"
   },
   "createTopicNodes": {
     "kind": "function",
@@ -2721,7 +2721,7 @@
       "sceneGraph": "SceneGraph"
     },
     "returnType": "{ topics: number; connections: number; }",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/conversationsImporter.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/conversationsImporter.ts"
   },
   "createKeywordNodes": {
     "kind": "function",
@@ -2732,7 +2732,7 @@
       "minOccurrences": "number"
     },
     "returnType": "{ keywords: number; connections: number; }",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/conversationsImporter.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/conversationsImporter.ts"
   },
   "importConversationsWithStructure": {
     "kind": "function",
@@ -2746,14 +2746,14 @@
       "keywordMinOccurrences": "number"
     },
     "returnType": "Promise<{ imported: number; matched: number; topics?: { topics: number; connections: number; }; keywords?: { keywords: number; connections: number; }; }>",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/conversationsImporter.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/conversationsImporter.ts"
   },
   "SceneGraphController": {
     "kind": "class",
     "properties": {},
     "references": {},
     "methods": {},
-    "file": "/Users/andrew/workspace/unigraph/src/core/force-graph/SceneGraphController.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/force-graph/SceneGraphController.ts"
   },
   "getSystemPromptWithCommands": {
     "kind": "function",
@@ -2761,7 +2761,7 @@
     "references": {},
     "arguments": {},
     "returnType": "string",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/llmStudioService.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/llmStudioService.ts"
   },
   "getCommandsContextForLLM": {
     "kind": "function",
@@ -2769,7 +2769,7 @@
     "references": {},
     "arguments": {},
     "returnType": "string",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/llmStudioService.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/llmStudioService.ts"
   },
   "callLLMStudioAPI": {
     "kind": "function",
@@ -2780,7 +2780,7 @@
       "options": "LLMStudioOptions"
     },
     "returnType": "Promise<string>",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/llmStudioService.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/llmStudioService.ts"
   },
   "normalizeMessages": {
     "kind": "function",
@@ -2790,7 +2790,7 @@
       "messages": "{ role: \"user\" | \"assistant\" | \"system\"; content: string; }[]"
     },
     "returnType": "{ role: \"user\" | \"assistant\" | \"system\"; content: string; }[]",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/llmStudioService.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/llmStudioService.ts"
   },
   "getEnhancedSystemPrompt": {
     "kind": "function",
@@ -2798,7 +2798,7 @@
     "references": {},
     "arguments": {},
     "returnType": "string",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/llmStudioService.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/llmStudioService.ts"
   },
   "checkLLMStudioAvailability": {
     "kind": "function",
@@ -2806,7 +2806,7 @@
     "references": {},
     "arguments": {},
     "returnType": "Promise<boolean>",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/llmStudioService.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/llmStudioService.ts"
   },
   "main": {
     "kind": "function",
@@ -2814,7 +2814,7 @@
     "references": {},
     "arguments": {},
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/testLlm.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/testLlm.ts"
   },
   "$convertMentionElement": {
     "kind": "function",
@@ -2824,7 +2824,7 @@
       "domNode": "HTMLElement"
     },
     "returnType": "DOMConversionOutput",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/Lexical/nodes/MentionNode.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/Lexical/nodes/MentionNode.ts"
   },
   "MentionNode": {
     "kind": "class",
@@ -2897,7 +2897,7 @@
       }
     },
     "extends": "TextNode",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/Lexical/nodes/MentionNode.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/Lexical/nodes/MentionNode.ts"
   },
   "$createMentionNode": {
     "kind": "function",
@@ -2908,7 +2908,7 @@
       "textContent": "string"
     },
     "returnType": "MentionNode",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/Lexical/nodes/MentionNode.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/Lexical/nodes/MentionNode.ts"
   },
   "$isMentionNode": {
     "kind": "function",
@@ -2918,7 +2918,7 @@
       "node": "LexicalNode"
     },
     "returnType": "boolean",
-    "file": "/Users/andrew/workspace/unigraph/src/components/applets/Lexical/nodes/MentionNode.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/applets/Lexical/nodes/MentionNode.ts"
   },
   "getDownstreamNodes": {
     "kind": "function",
@@ -2929,7 +2929,7 @@
       "sceneGraph": "SceneGraph"
     },
     "returnType": "EntityIds<NodeId>",
-    "file": "/Users/andrew/workspace/unigraph/src/core/graphAlgorithms/getAllPaths.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/graphAlgorithms/getAllPaths.ts"
   },
   "getUpstreamNodes": {
     "kind": "function",
@@ -2940,7 +2940,7 @@
       "sceneGraph": "SceneGraph"
     },
     "returnType": "EntityIds<NodeId>",
-    "file": "/Users/andrew/workspace/unigraph/src/core/graphAlgorithms/getAllPaths.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/graphAlgorithms/getAllPaths.ts"
   },
   "getAllPaths": {
     "kind": "function",
@@ -2951,7 +2951,7 @@
       "sceneGraph": "SceneGraph"
     },
     "returnType": "EntityIds<NodeId>",
-    "file": "/Users/andrew/workspace/unigraph/src/core/graphAlgorithms/getAllPaths.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/graphAlgorithms/getAllPaths.ts"
   },
   "findOriginNodes": {
     "kind": "function",
@@ -2962,7 +2962,7 @@
       "sceneGraph": "SceneGraph"
     },
     "returnType": "EntityIds<NodeId>",
-    "file": "/Users/andrew/workspace/unigraph/src/core/graphAlgorithms/getAllPaths.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/graphAlgorithms/getAllPaths.ts"
   },
   "getEdgesBetweenNodes": {
     "kind": "function",
@@ -2973,7 +2973,7 @@
       "sceneGraph": "SceneGraph"
     },
     "returnType": "EntityIds<EdgeId>",
-    "file": "/Users/andrew/workspace/unigraph/src/core/graphAlgorithms/getAllPaths.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/graphAlgorithms/getAllPaths.ts"
   },
   "getEntirePath": {
     "kind": "function",
@@ -2984,7 +2984,7 @@
       "sceneGraph": "SceneGraph"
     },
     "returnType": "{ nodes: EntityIds<NodeId>; edges: EntityIds<EdgeId>; }",
-    "file": "/Users/andrew/workspace/unigraph/src/core/graphAlgorithms/getAllPaths.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/graphAlgorithms/getAllPaths.ts"
   },
   "loadMarkdownFile": {
     "kind": "function",
@@ -2994,7 +2994,7 @@
       "path": "string"
     },
     "returnType": "Promise<string>",
-    "file": "/Users/andrew/workspace/unigraph/src/components/markdown/markdownLoader.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/markdown/markdownLoader.ts"
   },
   "extractFirstImageSrc": {
     "kind": "function",
@@ -3004,7 +3004,7 @@
       "markdown": "string"
     },
     "returnType": "string",
-    "file": "/Users/andrew/workspace/unigraph/src/components/utils/markdownUtils.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/utils/markdownUtils.ts"
   },
   "removeFirstImage": {
     "kind": "function",
@@ -3014,7 +3014,7 @@
       "markdown": "string"
     },
     "returnType": "string",
-    "file": "/Users/andrew/workspace/unigraph/src/components/utils/markdownUtils.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/components/utils/markdownUtils.ts"
   },
   "SceneGraphCache": {
     "kind": "class",
@@ -3042,7 +3042,7 @@
         "returnType": "Set<string>"
       }
     },
-    "file": "/Users/andrew/workspace/unigraph/src/controllers/SceneGraphCache.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/controllers/SceneGraphCache.ts"
   },
   "ForceGraphInstanceController": {
     "kind": "class",
@@ -3091,7 +3091,7 @@
     "implements": [
       "IForceGraphInstanceController"
     ],
-    "file": "/Users/andrew/workspace/unigraph/src/core/force-graph/forceGraphController.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/force-graph/forceGraphController.ts"
   },
   "deserializeSceneGraph": {
     "kind": "function",
@@ -3101,7 +3101,7 @@
       "serializedGraph": "SerializedSceneGraph"
     },
     "returnType": "SceneGraph",
-    "file": "/Users/andrew/workspace/unigraph/src/core/layouts/LayoutWorker.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/layouts/LayoutWorker.ts"
   },
   "handleComputeLayout": {
     "kind": "function",
@@ -3111,7 +3111,7 @@
       "message": "LayoutWorkerMessage"
     },
     "returnType": "Promise<ILayoutEngineResult>",
-    "file": "/Users/andrew/workspace/unigraph/src/core/layouts/LayoutWorker.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/layouts/LayoutWorker.ts"
   },
   "serializeSongAnnotationContainerToJson": {
     "kind": "function",
@@ -3121,7 +3121,7 @@
       "container": "EntitiesContainer<SongAnnotationId, SongAnnotation>"
     },
     "returnType": "string",
-    "file": "/Users/andrew/workspace/unigraph/src/core/serializers/toFromSongAnnotationContainer.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/serializers/toFromSongAnnotationContainer.ts"
   },
   "deserializeSongAnnotationContainerFromJson": {
     "kind": "function",
@@ -3131,7 +3131,7 @@
       "json": "string"
     },
     "returnType": "EntitiesContainer<SongAnnotationId, SongAnnotation>",
-    "file": "/Users/andrew/workspace/unigraph/src/core/serializers/toFromSongAnnotationContainer.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/serializers/toFromSongAnnotationContainer.ts"
   },
   "deserializeDotToSceneGraph": {
     "kind": "function",
@@ -3141,7 +3141,7 @@
       "dotContent": "string"
     },
     "returnType": "SceneGraph",
-    "file": "/Users/andrew/workspace/unigraph/src/core/serializers/fromDot.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/serializers/fromDot.ts"
   },
   "deserializeGraphmlToSceneGraph": {
     "kind": "function",
@@ -3151,7 +3151,7 @@
       "graphmlContent": "string"
     },
     "returnType": "Promise<SceneGraph>",
-    "file": "/Users/andrew/workspace/unigraph/src/core/serializers/fromGraphml.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/serializers/fromGraphml.ts"
   },
   "loadSceneGraphFromFile": {
     "kind": "function",
@@ -3161,7 +3161,7 @@
       "file": "File"
     },
     "returnType": "Promise<SceneGraph>",
-    "file": "/Users/andrew/workspace/unigraph/src/core/serializers/sceneGraphLoader.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/serializers/sceneGraphLoader.ts"
   },
   "serializeSceneGraphToDot": {
     "kind": "function",
@@ -3171,7 +3171,7 @@
       "sceneGraph": "SceneGraph"
     },
     "returnType": "string",
-    "file": "/Users/andrew/workspace/unigraph/src/core/serializers/toDot.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/serializers/toDot.ts"
   },
   "serializeSceneGraphToGraphml": {
     "kind": "function",
@@ -3181,7 +3181,7 @@
       "sceneGraph": "SceneGraph"
     },
     "returnType": "string",
-    "file": "/Users/andrew/workspace/unigraph/src/core/serializers/toGraphml.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/serializers/toGraphml.ts"
   },
   "PersistentStoreManager": {
     "kind": "class",
@@ -3255,7 +3255,7 @@
     "implements": [
       "IPersistentStore"
     ],
-    "file": "/Users/andrew/workspace/unigraph/src/core/storage/PersistentStoreManager.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/storage/PersistentStoreManager.ts"
   },
   "ImageAnnotation": {
     "kind": "class",
@@ -3278,7 +3278,7 @@
       }
     },
     "extends": "AbstractEntity",
-    "file": "/Users/andrew/workspace/unigraph/src/core/types/ImageAnnotation.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/types/ImageAnnotation.ts"
   },
   "CameraHelper": {
     "kind": "class",
@@ -3332,7 +3332,7 @@
         "returnType": "boolean"
       }
     },
-    "file": "/Users/andrew/workspace/unigraph/src/core/webgl/CameraHelper.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/webgl/CameraHelper.ts"
   },
   "applyParticleEffects": {
     "kind": "function",
@@ -3346,7 +3346,7 @@
       "camera": "PerspectiveCamera"
     },
     "returnType": "void",
-    "file": "/Users/andrew/workspace/unigraph/src/core/webgl/simulations/applyParticleEffects.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/core/webgl/simulations/applyParticleEffects.ts"
   },
   "commandMatchesQueryUnordered": {
     "kind": "function",
@@ -3357,7 +3357,7 @@
       "query": "string"
     },
     "returnType": "boolean",
-    "file": "/Users/andrew/workspace/unigraph/src/hooks/commandPaletteUtils.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/hooks/commandPaletteUtils.ts"
   },
   "getCommandMatchScore": {
     "kind": "function",
@@ -3368,7 +3368,7 @@
       "query": "string"
     },
     "returnType": "number",
-    "file": "/Users/andrew/workspace/unigraph/src/hooks/commandPaletteUtils.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/hooks/commandPaletteUtils.ts"
   },
   "fetchSvgSceneGraph": {
     "kind": "function",
@@ -3378,7 +3378,7 @@
       "svgUrl": "string"
     },
     "returnType": "Promise<{ sceneGraph: SceneGraph; error: Error; }>",
-    "file": "/Users/andrew/workspace/unigraph/src/hooks/useSvgSceneGraph.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/hooks/useSvgSceneGraph.ts"
   },
   "useSvgSceneGraph": {
     "kind": "function",
@@ -3388,7 +3388,7 @@
       "svgUrl": "string"
     },
     "returnType": "{ sceneGraph: SceneGraph; loading: boolean; error: Error; }",
-    "file": "/Users/andrew/workspace/unigraph/src/hooks/useSvgSceneGraph.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/hooks/useSvgSceneGraph.ts"
   },
   "DisplayConfigManager": {
     "kind": "class",
@@ -3406,9 +3406,9 @@
         "returnType": "void"
       }
     },
-    "file": "/Users/andrew/workspace/unigraph/src/store/TagManager.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/store/TagManager.ts"
   },
-  "replaceUnigraphUrlsWithLocalhost": {
+  "replaceAegraphUrlsWithLocalhost": {
     "kind": "function",
     "properties": {},
     "references": {},
@@ -3416,15 +3416,15 @@
       "html": "string"
     },
     "returnType": "string",
-    "file": "/Users/andrew/workspace/unigraph/src/utils/urlUtils.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/utils/urlUtils.ts"
   },
-  "getUnigraphBaseUrl": {
+  "getAegraphBaseUrl": {
     "kind": "function",
     "properties": {},
     "references": {},
     "arguments": {},
     "returnType": "string",
-    "file": "/Users/andrew/workspace/unigraph/src/utils/urlUtils.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/utils/urlUtils.ts"
   },
   "fixWikipediaLinks": {
     "kind": "function",
@@ -3435,151 +3435,151 @@
       "language": "string"
     },
     "returnType": "string",
-    "file": "/Users/andrew/workspace/unigraph/src/utils/urlUtils.ts"
+    "file": "/Users/andrew/workspace/aegraph/src/utils/urlUtils.ts"
   },
   "_files": {
-    "/Users/andrew/workspace/unigraph/src/core/model/entity/abstractEntity.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/model/entity/abstractEntity.ts": [
       "fromDefault",
       "AbstractEntity",
       "Entity"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/model/entity/entityIds.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/model/entity/entityIds.ts": [
       "EntityIds"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/model/entity/entitiesContainer.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/model/entity/entitiesContainer.ts": [
       "EntitiesContainer"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/model/Node.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/model/Node.ts": [
       "Node"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/model/Edge.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/model/Edge.ts": [
       "Edge"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/model/Graph.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/model/Graph.ts": [
       "Graph"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/layouts/layoutHelpers.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/layouts/layoutHelpers.ts": [
       "createGraphologyGraph",
       "normalizePositions",
       "scalePositions",
       "centerPositions",
       "fitToRect"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/model/GraphBuilder.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/model/GraphBuilder.ts": [
       "GraphBuilder"
     ],
-    "/Users/andrew/workspace/unigraph/src/controllers/RenderingManager.ts": [
+    "/Users/andrew/workspace/aegraph/src/controllers/RenderingManager.ts": [
       "RenderingManager"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/model/entity/entityCache.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/model/entity/entityCache.ts": [
       "EntityCache"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/model/SceneGraph.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/model/SceneGraph.ts": [
       "SceneGraph"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/layouts/GraphologyLayoutEngine.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/layouts/GraphologyLayoutEngine.ts": [
       "GraphologyLayoutEngine",
       "extractPositionsFromGraphlogyGraph"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/model/DisplayManager.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/model/DisplayManager.ts": [
       "DisplayManager"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/webgl/webglHelpers.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/webgl/webglHelpers.ts": [
       "extractIntersection",
       "extractIntersections",
       "getImagePixelCoordinates",
       "convertPixelCoordinatesToPositions"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/webgl/selectionArea.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/webgl/selectionArea.ts": [
       "extractSelectionBoxGroups"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/force-graph/forceGraphHelpers.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/force-graph/forceGraphHelpers.ts": [
       "findNodeInForceGraph"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/force-graph/createForceGraph.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/force-graph/createForceGraph.ts": [
       "selectNodesInSelectionBox",
       "updateHighlight"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/force-graph/ForceGraphManager.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/force-graph/ForceGraphManager.ts": [
       "ForceGraphManager"
     ],
-    "/Users/andrew/workspace/unigraph/src/_experimental/exampleCode/forceGraph3dCamera.ts": [
+    "/Users/andrew/workspace/aegraph/src/_experimental/exampleCode/forceGraph3dCamera.ts": [
       "computeGraphBounds",
       "setupDynamicCamera"
     ],
-    "/Users/andrew/workspace/unigraph/src/_experimental/mp3/SongAnnotation.ts": [
+    "/Users/andrew/workspace/aegraph/src/_experimental/mp3/SongAnnotation.ts": [
       "SongAnnotation"
     ],
-    "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/animationRunner.ts": [
+    "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/animationRunner.ts": [
       "runManagedAnimation"
     ],
-    "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/transition.ts": [
+    "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/transition.ts": [
       "transitionToConfig"
     ],
-    "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/configSequencePlayer.ts": [
+    "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/configSequencePlayer.ts": [
       "playConfigSequence"
     ],
-    "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/songAnnotationTransitions.ts": [
+    "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/songAnnotationTransitions.ts": [
       "generateRandomConfig",
       "createSongVisualizationTimeline"
     ],
-    "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/annotationConfigGenerator.ts": [
+    "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/annotationConfigGenerator.ts": [
       "generateConfigsFromAnnotations"
     ],
-    "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/annotationNodeSpawner.ts": [
+    "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/annotationNodeSpawner.ts": [
       "createAnnotationNodeSpawner"
     ],
-    "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/applyRandomEffects2.ts": [
+    "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/applyRandomEffects2.ts": [
       "applyRandomEffects"
     ],
-    "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/applyStaggeredEffects.ts": [
+    "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/applyStaggeredEffects.ts": [
       "applyStaggeredEffects"
     ],
-    "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/pulsate.ts": [
+    "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/pulsate.ts": [
       "pulsateNodes"
     ],
-    "/Users/andrew/workspace/unigraph/src/_experimental/yasgui/yasguiHelpers.ts": [
+    "/Users/andrew/workspace/aegraph/src/_experimental/yasgui/yasguiHelpers.ts": [
       "bfsQuery"
     ],
-    "/Users/andrew/workspace/unigraph/src/data/graphs/blobMesh.ts": [
+    "/Users/andrew/workspace/aegraph/src/data/graphs/blobMesh.ts": [
       "createBlobMesh"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/layouts/GraphvizLayoutEngine.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/layouts/GraphvizLayoutEngine.ts": [
       "GraphvizLayoutEngine"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/layouts/LayoutEngine.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/layouts/LayoutEngine.ts": [
       "getLayoutWorker",
       "LayoutEngine"
     ],
-    "/Users/andrew/workspace/unigraph/src/store/sceneGraphHooks.ts": [
+    "/Users/andrew/workspace/aegraph/src/store/sceneGraphHooks.ts": [
       "applyLayoutAndTriggerAppUpdate",
       "computeLayoutAndTriggerAppUpdate",
       "computeLayoutAndTriggerUpdateForCurrentSceneGraph"
     ],
-    "/Users/andrew/workspace/unigraph/src/api/webpagesApi.ts": [
+    "/Users/andrew/workspace/aegraph/src/api/webpagesApi.ts": [
       "saveWebpage",
       "listWebpages",
       "getWebpage"
     ],
-    "/Users/andrew/workspace/unigraph/src/api/annotationsApi.ts": [
+    "/Users/andrew/workspace/aegraph/src/api/annotationsApi.ts": [
       "saveAnnotation",
       "listAnnotations",
       "getAnnotation"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/serializers/toFromJson.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/serializers/toFromJson.ts": [
       "serializeSceneGraphToJson",
       "deserializeSceneGraphFromJson",
       "compressSceneGraphJsonForUrl",
       "decompressSceneGraphJsonFromUrl"
     ],
-    "/Users/andrew/workspace/unigraph/src/api/supabaseProjects.ts": [
+    "/Users/andrew/workspace/aegraph/src/api/supabaseProjects.ts": [
       "saveProjectToSupabase",
       "listProjects",
       "getProject",
       "deleteProject",
       "updateProject"
     ],
-    "/Users/andrew/workspace/unigraph/src/api/projectActions.ts": [
+    "/Users/andrew/workspace/aegraph/src/api/projectActions.ts": [
       "exportProject",
       "deleteProjectAction",
       "copyProject",
@@ -3588,24 +3588,24 @@
       "handleProjectActionResult",
       "confirmAction"
     ],
-    "/Users/andrew/workspace/unigraph/src/data/demo-graphs/interfaceAstToSceneGraph.ts": [
+    "/Users/andrew/workspace/aegraph/src/data/demo-graphs/interfaceAstToSceneGraph.ts": [
       "extractReferences",
       "demo_scenegraph_ast"
     ],
-    "/Users/andrew/workspace/unigraph/src/data/graphs/thinkers1Graph.ts": [
+    "/Users/andrew/workspace/aegraph/src/data/graphs/thinkers1Graph.ts": [
       "KnowledgeGraphBuilder"
     ],
-    "/Users/andrew/workspace/unigraph/src/utils/svgLoader.ts": [
+    "/Users/andrew/workspace/aegraph/src/utils/svgLoader.ts": [
       "loadSvgFromUrl",
       "findClosestNode"
     ],
-    "/Users/andrew/workspace/unigraph/src/utils/graphUtils.ts": [
+    "/Users/andrew/workspace/aegraph/src/utils/graphUtils.ts": [
       "generateRandomNodes",
       "generateRandomEdges",
       "generateRandomGraph",
       "addRandomCluster"
     ],
-    "/Users/andrew/workspace/unigraph/src/data/models/StoryCard.ts": [
+    "/Users/andrew/workspace/aegraph/src/data/models/StoryCard.ts": [
       "createStoryCard",
       "createMarkdownStoryCard",
       "addStoryCardToGraph",
@@ -3619,23 +3619,23 @@
       "createStoryGraphFromTree",
       "exportStoryTree"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/types/StoryCard.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/types/StoryCard.ts": [
       "StoryCard"
     ],
-    "/Users/andrew/workspace/unigraph/src/data/graphs/Feature.ts": [
+    "/Users/andrew/workspace/aegraph/src/data/graphs/Feature.ts": [
       "createFeatureSet"
     ],
-    "/Users/andrew/workspace/unigraph/src/data/graphs/sphereMesh.ts": [
+    "/Users/andrew/workspace/aegraph/src/data/graphs/sphereMesh.ts": [
       "createSphereMesh"
     ],
-    "/Users/andrew/workspace/unigraph/src/data/graphs/sphericalMesh.ts": [
+    "/Users/andrew/workspace/aegraph/src/data/graphs/sphericalMesh.ts": [
       "createCylindricalMesh"
     ],
-    "/Users/andrew/workspace/unigraph/src/data/DemoSceneGraphs.ts": [
+    "/Users/andrew/workspace/aegraph/src/data/DemoSceneGraphs.ts": [
       "getAllDemoSceneGraphCategories",
       "getDemoSceneGraphTree"
     ],
-    "/Users/andrew/workspace/unigraph/src/store/dialogStore.ts": [
+    "/Users/andrew/workspace/aegraph/src/store/dialogStore.ts": [
       "setShowLoadSceneGraphWindow",
       "setShowSaveSceneGraphDialog",
       "setShowSaveAsNewProjectDialog",
@@ -3648,20 +3648,20 @@
       "setShowFilterWindow",
       "setShowCommandPalette"
     ],
-    "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/WebLLMClient.ts": [
+    "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/WebLLMClient.ts": [
       "WebLLMClient"
     ],
-    "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/runConversationsAnalysis.ts": [
+    "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/runConversationsAnalysis.ts": [
       "analyzeDocumentForTags",
       "analyzeAllDocuments",
       "applyTagsToDocuments",
       "exportTagsToJson",
       "runConversationsAnalysis"
     ],
-    "/Users/andrew/workspace/unigraph/src/components/MenuConfig.ts": [
+    "/Users/andrew/workspace/aegraph/src/components/MenuConfig.ts": [
       "MenuConfig"
     ],
-    "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts": [
+    "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts": [
       "fetchChatGptConversation",
       "parseConversationsJson",
       "parseConversationItem",
@@ -3674,16 +3674,16 @@
       "importParsedConversation",
       "downsampleConversations"
     ],
-    "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/conversationsImporter.ts": [
+    "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/conversationsImporter.ts": [
       "importConversations",
       "createTopicNodes",
       "createKeywordNodes",
       "importConversationsWithStructure"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/force-graph/SceneGraphController.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/force-graph/SceneGraphController.ts": [
       "SceneGraphController"
     ],
-    "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/llmStudioService.ts": [
+    "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/llmStudioService.ts": [
       "getSystemPromptWithCommands",
       "getCommandsContextForLLM",
       "callLLMStudioAPI",
@@ -3691,16 +3691,16 @@
       "getEnhancedSystemPrompt",
       "checkLLMStudioAvailability"
     ],
-    "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/testLlm.ts": [
+    "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/testLlm.ts": [
       "main"
     ],
-    "/Users/andrew/workspace/unigraph/src/components/applets/Lexical/nodes/MentionNode.ts": [
+    "/Users/andrew/workspace/aegraph/src/components/applets/Lexical/nodes/MentionNode.ts": [
       "$convertMentionElement",
       "MentionNode",
       "$createMentionNode",
       "$isMentionNode"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/graphAlgorithms/getAllPaths.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/graphAlgorithms/getAllPaths.ts": [
       "getDownstreamNodes",
       "getUpstreamNodes",
       "getAllPaths",
@@ -3708,208 +3708,208 @@
       "getEdgesBetweenNodes",
       "getEntirePath"
     ],
-    "/Users/andrew/workspace/unigraph/src/components/markdown/markdownLoader.ts": [
+    "/Users/andrew/workspace/aegraph/src/components/markdown/markdownLoader.ts": [
       "loadMarkdownFile"
     ],
-    "/Users/andrew/workspace/unigraph/src/components/utils/markdownUtils.ts": [
+    "/Users/andrew/workspace/aegraph/src/components/utils/markdownUtils.ts": [
       "extractFirstImageSrc",
       "removeFirstImage"
     ],
-    "/Users/andrew/workspace/unigraph/src/controllers/SceneGraphCache.ts": [
+    "/Users/andrew/workspace/aegraph/src/controllers/SceneGraphCache.ts": [
       "SceneGraphCache"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/force-graph/forceGraphController.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/force-graph/forceGraphController.ts": [
       "ForceGraphInstanceController"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/layouts/LayoutWorker.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/layouts/LayoutWorker.ts": [
       "deserializeSceneGraph",
       "handleComputeLayout"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/serializers/toFromSongAnnotationContainer.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/serializers/toFromSongAnnotationContainer.ts": [
       "serializeSongAnnotationContainerToJson",
       "deserializeSongAnnotationContainerFromJson"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/serializers/fromDot.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/serializers/fromDot.ts": [
       "deserializeDotToSceneGraph"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/serializers/fromGraphml.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/serializers/fromGraphml.ts": [
       "deserializeGraphmlToSceneGraph"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/serializers/sceneGraphLoader.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/serializers/sceneGraphLoader.ts": [
       "loadSceneGraphFromFile"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/serializers/toDot.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/serializers/toDot.ts": [
       "serializeSceneGraphToDot"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/serializers/toGraphml.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/serializers/toGraphml.ts": [
       "serializeSceneGraphToGraphml"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/storage/PersistentStoreManager.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/storage/PersistentStoreManager.ts": [
       "PersistentStoreManager"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/types/ImageAnnotation.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/types/ImageAnnotation.ts": [
       "ImageAnnotation"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/webgl/CameraHelper.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/webgl/CameraHelper.ts": [
       "CameraHelper"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/webgl/simulations/applyParticleEffects.ts": [
+    "/Users/andrew/workspace/aegraph/src/core/webgl/simulations/applyParticleEffects.ts": [
       "applyParticleEffects"
     ],
-    "/Users/andrew/workspace/unigraph/src/hooks/commandPaletteUtils.ts": [
+    "/Users/andrew/workspace/aegraph/src/hooks/commandPaletteUtils.ts": [
       "commandMatchesQueryUnordered",
       "getCommandMatchScore"
     ],
-    "/Users/andrew/workspace/unigraph/src/hooks/useSvgSceneGraph.ts": [
+    "/Users/andrew/workspace/aegraph/src/hooks/useSvgSceneGraph.ts": [
       "fetchSvgSceneGraph",
       "useSvgSceneGraph"
     ],
-    "/Users/andrew/workspace/unigraph/src/store/TagManager.ts": [
+    "/Users/andrew/workspace/aegraph/src/store/TagManager.ts": [
       "DisplayConfigManager"
     ],
-    "/Users/andrew/workspace/unigraph/src/utils/urlUtils.ts": [
-      "replaceUnigraphUrlsWithLocalhost",
-      "getUnigraphBaseUrl",
+    "/Users/andrew/workspace/aegraph/src/utils/urlUtils.ts": [
+      "replaceAegraphUrlsWithLocalhost",
+      "getAegraphBaseUrl",
       "fixWikipediaLinks"
     ]
   },
   "_directories": {
-    "/Users/andrew/workspace/unigraph/src/core/model/entity": [
-      "/Users/andrew/workspace/unigraph/src/core/model/entity/abstractEntity.ts",
-      "/Users/andrew/workspace/unigraph/src/core/model/entity/entityIds.ts",
-      "/Users/andrew/workspace/unigraph/src/core/model/entity/entitiesContainer.ts",
-      "/Users/andrew/workspace/unigraph/src/core/model/entity/entityCache.ts"
+    "/Users/andrew/workspace/aegraph/src/core/model/entity": [
+      "/Users/andrew/workspace/aegraph/src/core/model/entity/abstractEntity.ts",
+      "/Users/andrew/workspace/aegraph/src/core/model/entity/entityIds.ts",
+      "/Users/andrew/workspace/aegraph/src/core/model/entity/entitiesContainer.ts",
+      "/Users/andrew/workspace/aegraph/src/core/model/entity/entityCache.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/model": [
-      "/Users/andrew/workspace/unigraph/src/core/model/Node.ts",
-      "/Users/andrew/workspace/unigraph/src/core/model/Edge.ts",
-      "/Users/andrew/workspace/unigraph/src/core/model/Graph.ts",
-      "/Users/andrew/workspace/unigraph/src/core/model/GraphBuilder.ts",
-      "/Users/andrew/workspace/unigraph/src/core/model/SceneGraph.ts",
-      "/Users/andrew/workspace/unigraph/src/core/model/DisplayManager.ts"
+    "/Users/andrew/workspace/aegraph/src/core/model": [
+      "/Users/andrew/workspace/aegraph/src/core/model/Node.ts",
+      "/Users/andrew/workspace/aegraph/src/core/model/Edge.ts",
+      "/Users/andrew/workspace/aegraph/src/core/model/Graph.ts",
+      "/Users/andrew/workspace/aegraph/src/core/model/GraphBuilder.ts",
+      "/Users/andrew/workspace/aegraph/src/core/model/SceneGraph.ts",
+      "/Users/andrew/workspace/aegraph/src/core/model/DisplayManager.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/layouts": [
-      "/Users/andrew/workspace/unigraph/src/core/layouts/layoutHelpers.ts",
-      "/Users/andrew/workspace/unigraph/src/core/layouts/GraphologyLayoutEngine.ts",
-      "/Users/andrew/workspace/unigraph/src/core/layouts/GraphvizLayoutEngine.ts",
-      "/Users/andrew/workspace/unigraph/src/core/layouts/LayoutEngine.ts",
-      "/Users/andrew/workspace/unigraph/src/core/layouts/LayoutWorker.ts"
+    "/Users/andrew/workspace/aegraph/src/core/layouts": [
+      "/Users/andrew/workspace/aegraph/src/core/layouts/layoutHelpers.ts",
+      "/Users/andrew/workspace/aegraph/src/core/layouts/GraphologyLayoutEngine.ts",
+      "/Users/andrew/workspace/aegraph/src/core/layouts/GraphvizLayoutEngine.ts",
+      "/Users/andrew/workspace/aegraph/src/core/layouts/LayoutEngine.ts",
+      "/Users/andrew/workspace/aegraph/src/core/layouts/LayoutWorker.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/controllers": [
-      "/Users/andrew/workspace/unigraph/src/controllers/RenderingManager.ts",
-      "/Users/andrew/workspace/unigraph/src/controllers/SceneGraphCache.ts"
+    "/Users/andrew/workspace/aegraph/src/controllers": [
+      "/Users/andrew/workspace/aegraph/src/controllers/RenderingManager.ts",
+      "/Users/andrew/workspace/aegraph/src/controllers/SceneGraphCache.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/webgl": [
-      "/Users/andrew/workspace/unigraph/src/core/webgl/webglHelpers.ts",
-      "/Users/andrew/workspace/unigraph/src/core/webgl/selectionArea.ts",
-      "/Users/andrew/workspace/unigraph/src/core/webgl/CameraHelper.ts"
+    "/Users/andrew/workspace/aegraph/src/core/webgl": [
+      "/Users/andrew/workspace/aegraph/src/core/webgl/webglHelpers.ts",
+      "/Users/andrew/workspace/aegraph/src/core/webgl/selectionArea.ts",
+      "/Users/andrew/workspace/aegraph/src/core/webgl/CameraHelper.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/force-graph": [
-      "/Users/andrew/workspace/unigraph/src/core/force-graph/forceGraphHelpers.ts",
-      "/Users/andrew/workspace/unigraph/src/core/force-graph/createForceGraph.ts",
-      "/Users/andrew/workspace/unigraph/src/core/force-graph/ForceGraphManager.ts",
-      "/Users/andrew/workspace/unigraph/src/core/force-graph/SceneGraphController.ts",
-      "/Users/andrew/workspace/unigraph/src/core/force-graph/forceGraphController.ts"
+    "/Users/andrew/workspace/aegraph/src/core/force-graph": [
+      "/Users/andrew/workspace/aegraph/src/core/force-graph/forceGraphHelpers.ts",
+      "/Users/andrew/workspace/aegraph/src/core/force-graph/createForceGraph.ts",
+      "/Users/andrew/workspace/aegraph/src/core/force-graph/ForceGraphManager.ts",
+      "/Users/andrew/workspace/aegraph/src/core/force-graph/SceneGraphController.ts",
+      "/Users/andrew/workspace/aegraph/src/core/force-graph/forceGraphController.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/_experimental/exampleCode": [
-      "/Users/andrew/workspace/unigraph/src/_experimental/exampleCode/forceGraph3dCamera.ts"
+    "/Users/andrew/workspace/aegraph/src/_experimental/exampleCode": [
+      "/Users/andrew/workspace/aegraph/src/_experimental/exampleCode/forceGraph3dCamera.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/_experimental/mp3": [
-      "/Users/andrew/workspace/unigraph/src/_experimental/mp3/SongAnnotation.ts"
+    "/Users/andrew/workspace/aegraph/src/_experimental/mp3": [
+      "/Users/andrew/workspace/aegraph/src/_experimental/mp3/SongAnnotation.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics": [
-      "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/animationRunner.ts",
-      "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/transition.ts",
-      "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/configSequencePlayer.ts",
-      "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/songAnnotationTransitions.ts",
-      "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/annotationConfigGenerator.ts",
-      "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/annotationNodeSpawner.ts",
-      "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/applyRandomEffects2.ts",
-      "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/applyStaggeredEffects.ts",
-      "/Users/andrew/workspace/unigraph/src/_experimental/force-graph-dynamics/pulsate.ts"
+    "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics": [
+      "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/animationRunner.ts",
+      "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/transition.ts",
+      "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/configSequencePlayer.ts",
+      "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/songAnnotationTransitions.ts",
+      "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/annotationConfigGenerator.ts",
+      "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/annotationNodeSpawner.ts",
+      "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/applyRandomEffects2.ts",
+      "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/applyStaggeredEffects.ts",
+      "/Users/andrew/workspace/aegraph/src/_experimental/force-graph-dynamics/pulsate.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/_experimental/yasgui": [
-      "/Users/andrew/workspace/unigraph/src/_experimental/yasgui/yasguiHelpers.ts"
+    "/Users/andrew/workspace/aegraph/src/_experimental/yasgui": [
+      "/Users/andrew/workspace/aegraph/src/_experimental/yasgui/yasguiHelpers.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/data/graphs": [
-      "/Users/andrew/workspace/unigraph/src/data/graphs/blobMesh.ts",
-      "/Users/andrew/workspace/unigraph/src/data/graphs/thinkers1Graph.ts",
-      "/Users/andrew/workspace/unigraph/src/data/graphs/Feature.ts",
-      "/Users/andrew/workspace/unigraph/src/data/graphs/sphereMesh.ts",
-      "/Users/andrew/workspace/unigraph/src/data/graphs/sphericalMesh.ts"
+    "/Users/andrew/workspace/aegraph/src/data/graphs": [
+      "/Users/andrew/workspace/aegraph/src/data/graphs/blobMesh.ts",
+      "/Users/andrew/workspace/aegraph/src/data/graphs/thinkers1Graph.ts",
+      "/Users/andrew/workspace/aegraph/src/data/graphs/Feature.ts",
+      "/Users/andrew/workspace/aegraph/src/data/graphs/sphereMesh.ts",
+      "/Users/andrew/workspace/aegraph/src/data/graphs/sphericalMesh.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/store": [
-      "/Users/andrew/workspace/unigraph/src/store/sceneGraphHooks.ts",
-      "/Users/andrew/workspace/unigraph/src/store/dialogStore.ts",
-      "/Users/andrew/workspace/unigraph/src/store/TagManager.ts"
+    "/Users/andrew/workspace/aegraph/src/store": [
+      "/Users/andrew/workspace/aegraph/src/store/sceneGraphHooks.ts",
+      "/Users/andrew/workspace/aegraph/src/store/dialogStore.ts",
+      "/Users/andrew/workspace/aegraph/src/store/TagManager.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/api": [
-      "/Users/andrew/workspace/unigraph/src/api/webpagesApi.ts",
-      "/Users/andrew/workspace/unigraph/src/api/annotationsApi.ts",
-      "/Users/andrew/workspace/unigraph/src/api/supabaseProjects.ts",
-      "/Users/andrew/workspace/unigraph/src/api/projectActions.ts"
+    "/Users/andrew/workspace/aegraph/src/api": [
+      "/Users/andrew/workspace/aegraph/src/api/webpagesApi.ts",
+      "/Users/andrew/workspace/aegraph/src/api/annotationsApi.ts",
+      "/Users/andrew/workspace/aegraph/src/api/supabaseProjects.ts",
+      "/Users/andrew/workspace/aegraph/src/api/projectActions.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/serializers": [
-      "/Users/andrew/workspace/unigraph/src/core/serializers/toFromJson.ts",
-      "/Users/andrew/workspace/unigraph/src/core/serializers/toFromSongAnnotationContainer.ts",
-      "/Users/andrew/workspace/unigraph/src/core/serializers/fromDot.ts",
-      "/Users/andrew/workspace/unigraph/src/core/serializers/fromGraphml.ts",
-      "/Users/andrew/workspace/unigraph/src/core/serializers/sceneGraphLoader.ts",
-      "/Users/andrew/workspace/unigraph/src/core/serializers/toDot.ts",
-      "/Users/andrew/workspace/unigraph/src/core/serializers/toGraphml.ts"
+    "/Users/andrew/workspace/aegraph/src/core/serializers": [
+      "/Users/andrew/workspace/aegraph/src/core/serializers/toFromJson.ts",
+      "/Users/andrew/workspace/aegraph/src/core/serializers/toFromSongAnnotationContainer.ts",
+      "/Users/andrew/workspace/aegraph/src/core/serializers/fromDot.ts",
+      "/Users/andrew/workspace/aegraph/src/core/serializers/fromGraphml.ts",
+      "/Users/andrew/workspace/aegraph/src/core/serializers/sceneGraphLoader.ts",
+      "/Users/andrew/workspace/aegraph/src/core/serializers/toDot.ts",
+      "/Users/andrew/workspace/aegraph/src/core/serializers/toGraphml.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/data/demo-graphs": [
-      "/Users/andrew/workspace/unigraph/src/data/demo-graphs/interfaceAstToSceneGraph.ts"
+    "/Users/andrew/workspace/aegraph/src/data/demo-graphs": [
+      "/Users/andrew/workspace/aegraph/src/data/demo-graphs/interfaceAstToSceneGraph.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/utils": [
-      "/Users/andrew/workspace/unigraph/src/utils/svgLoader.ts",
-      "/Users/andrew/workspace/unigraph/src/utils/graphUtils.ts",
-      "/Users/andrew/workspace/unigraph/src/utils/urlUtils.ts"
+    "/Users/andrew/workspace/aegraph/src/utils": [
+      "/Users/andrew/workspace/aegraph/src/utils/svgLoader.ts",
+      "/Users/andrew/workspace/aegraph/src/utils/graphUtils.ts",
+      "/Users/andrew/workspace/aegraph/src/utils/urlUtils.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/data/models": [
-      "/Users/andrew/workspace/unigraph/src/data/models/StoryCard.ts"
+    "/Users/andrew/workspace/aegraph/src/data/models": [
+      "/Users/andrew/workspace/aegraph/src/data/models/StoryCard.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/types": [
-      "/Users/andrew/workspace/unigraph/src/core/types/StoryCard.ts",
-      "/Users/andrew/workspace/unigraph/src/core/types/ImageAnnotation.ts"
+    "/Users/andrew/workspace/aegraph/src/core/types": [
+      "/Users/andrew/workspace/aegraph/src/core/types/StoryCard.ts",
+      "/Users/andrew/workspace/aegraph/src/core/types/ImageAnnotation.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/data": [
-      "/Users/andrew/workspace/unigraph/src/data/DemoSceneGraphs.ts"
+    "/Users/andrew/workspace/aegraph/src/data": [
+      "/Users/andrew/workspace/aegraph/src/data/DemoSceneGraphs.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services": [
-      "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/WebLLMClient.ts",
-      "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/runConversationsAnalysis.ts",
-      "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/conversationsImporter.ts",
-      "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/llmStudioService.ts",
-      "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/services/testLlm.ts"
+    "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services": [
+      "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/WebLLMClient.ts",
+      "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/runConversationsAnalysis.ts",
+      "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/conversationsImporter.ts",
+      "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/llmStudioService.ts",
+      "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/services/testLlm.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/components": [
-      "/Users/andrew/workspace/unigraph/src/components/MenuConfig.ts"
+    "/Users/andrew/workspace/aegraph/src/components": [
+      "/Users/andrew/workspace/aegraph/src/components/MenuConfig.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter": [
-      "/Users/andrew/workspace/unigraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
+    "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter": [
+      "/Users/andrew/workspace/aegraph/src/components/applets/ChatGptImporter/chatGptImportUtils.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/components/applets/Lexical/nodes": [
-      "/Users/andrew/workspace/unigraph/src/components/applets/Lexical/nodes/MentionNode.ts"
+    "/Users/andrew/workspace/aegraph/src/components/applets/Lexical/nodes": [
+      "/Users/andrew/workspace/aegraph/src/components/applets/Lexical/nodes/MentionNode.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/graphAlgorithms": [
-      "/Users/andrew/workspace/unigraph/src/core/graphAlgorithms/getAllPaths.ts"
+    "/Users/andrew/workspace/aegraph/src/core/graphAlgorithms": [
+      "/Users/andrew/workspace/aegraph/src/core/graphAlgorithms/getAllPaths.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/components/markdown": [
-      "/Users/andrew/workspace/unigraph/src/components/markdown/markdownLoader.ts"
+    "/Users/andrew/workspace/aegraph/src/components/markdown": [
+      "/Users/andrew/workspace/aegraph/src/components/markdown/markdownLoader.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/components/utils": [
-      "/Users/andrew/workspace/unigraph/src/components/utils/markdownUtils.ts"
+    "/Users/andrew/workspace/aegraph/src/components/utils": [
+      "/Users/andrew/workspace/aegraph/src/components/utils/markdownUtils.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/storage": [
-      "/Users/andrew/workspace/unigraph/src/core/storage/PersistentStoreManager.ts"
+    "/Users/andrew/workspace/aegraph/src/core/storage": [
+      "/Users/andrew/workspace/aegraph/src/core/storage/PersistentStoreManager.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/core/webgl/simulations": [
-      "/Users/andrew/workspace/unigraph/src/core/webgl/simulations/applyParticleEffects.ts"
+    "/Users/andrew/workspace/aegraph/src/core/webgl/simulations": [
+      "/Users/andrew/workspace/aegraph/src/core/webgl/simulations/applyParticleEffects.ts"
     ],
-    "/Users/andrew/workspace/unigraph/src/hooks": [
-      "/Users/andrew/workspace/unigraph/src/hooks/commandPaletteUtils.ts",
-      "/Users/andrew/workspace/unigraph/src/hooks/useSvgSceneGraph.ts"
+    "/Users/andrew/workspace/aegraph/src/hooks": [
+      "/Users/andrew/workspace/aegraph/src/hooks/commandPaletteUtils.ts",
+      "/Users/andrew/workspace/aegraph/src/hooks/useSvgSceneGraph.ts"
     ]
   }
 }
