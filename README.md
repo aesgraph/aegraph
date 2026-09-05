@@ -14,7 +14,7 @@ model, allowing for highly flexible and interactive representations of complex s
 
 Aegraph is derived from [unigraph](https://github.com/aesgraph/unigraph).
 
-### [Live Demo](https://unigraph.vercel.app/) (upstream unigraph deployment) <br>
+### [Live Demo](https://aegraph.dev/) <br>
 
 #### [Notes and documentation](https://aesgraph.github.io/aegraph/)
 
