@@ -4,11 +4,11 @@ nav_order: 7
 parent: "Development Notes"
 ---
 
-# **Introducing Unigraph**
+# **Introducing Aegraph**
 
-### **Unigraph: A General Solution for Web-Based Client-Side Interaction with Graphs**
+### **Aegraph: A General Solution for Web-Based Client-Side Interaction with Graphs**
 
-### Unigraph is a **highly featured graph engine** designed for **web-based client-side applications**, enabling users to **interact with complex graphs dynamically**. It provides **first-class mechanisms** for **managing display scenes independently from the underlying graph model**, allowing for **highly flexible and interactive representations** of structured data.
+### Aegraph is a **highly featured graph engine** designed for **web-based client-side applications**, enabling users to **interact with complex graphs dynamically**. It provides **first-class mechanisms** for **managing display scenes independently from the underlying graph model**, allowing for **highly flexible and interactive representations** of structured data.
 
 #### **Key Features & Design Principles**
 
@@ -33,13 +33,13 @@ parent: "Development Notes"
     * Bridges the gap between **raw data and human interpretation**, enhancing clarity and insight.
     * Supports incorporation of various human-ingestable data forms including images and audio into the graph
 
-### Unigraph is a graph engine designed to decouple **graph structure** from **graph presentation**, allowing for the creation of complex, multi-perspective visualizations. It enables users to compose intricate system diagrams and present them in ways that are **configurable, human-interpretable, and adaptable** to different contexts.
+### Aegraph is a graph engine designed to decouple **graph structure** from **graph presentation**, allowing for the creation of complex, multi-perspective visualizations. It enables users to compose intricate system diagrams and present them in ways that are **configurable, human-interpretable, and adaptable** to different contexts.
 
 #### **Core Capabilities**
 
 1. **Scene Management as a First-Class Feature**
 
-    * Unigraph allows multiple independent display scenes to be created and manipulated **without altering the underlying model graph**.
+    * Aegraph allows multiple independent display scenes to be created and manipulated **without altering the underlying model graph**.
     * This separation means that the same data can be **represented in multiple ways**, depending on the context and audience.
 
 1. **Flexible Graph Composition**
@@ -90,29 +90,29 @@ parent: "Development Notes"
 
 **Reach Goals:**
 
-* Unigraph is an envisionment of Web 3.0 where a new standard for information exchange and navigation on the web is established.
-* Unigraph is a centralizing framework and language by which compositional collaboration is done to unprecedented success.
+* Aegraph is an envisionment of Web 3.0 where a new standard for information exchange and navigation on the web is established.
+* Aegraph is a centralizing framework and language by which compositional collaboration is done to unprecedented success.
 
-### **Unigraph: A Web 3.0 Envisionment for Information Exchange and Navigation**
+### **Aegraph: A Web 3.0 Envisionment for Information Exchange and Navigation**
 
-### Unigraph represents a **paradigm shift** in how information is structured, exchanged, and navigated on the web. It introduces a **new standard** for **compositional collaboration**, where highly detailed, interactive graph structures facilitate **seamless integration of knowledge, systems, and user interactions**.
+### Aegraph represents a **paradigm shift** in how information is structured, exchanged, and navigated on the web. It introduces a **new standard** for **compositional collaboration**, where highly detailed, interactive graph structures facilitate **seamless integration of knowledge, systems, and user interactions**.
 
 * * *
 
 ### **A Vision for Web 3.0**
 
-### Unigraph is more than just a graph engine—it is a **centralizing framework** for **decentralized knowledge representation**. It embodies the principles of **Web 3.0**, where:
+### Aegraph is more than just a graph engine—it is a **centralizing framework** for **decentralized knowledge representation**. It embodies the principles of **Web 3.0**, where:
 
 * **Information is no longer siloed** within rigid structures but **fluidly connected** across contexts.
 * **Navigation is no longer linear** but instead **spatial, relational, and adaptive**.
 * **Collaboration is no longer fragmented** but instead **compositional and iterative**, allowing individuals and organizations to **build upon each other’s contributions** in real time.
 
-By rethinking **how data is represented, explored, and shared**, Unigraph establishes a **universal language for compositional collaboration**—where knowledge, ideas, and systems can be composed, extended, and refined to **unprecedented success**.
+By rethinking **how data is represented, explored, and shared**, Aegraph establishes a **universal language for compositional collaboration**—where knowledge, ideas, and systems can be composed, extended, and refined to **unprecedented success**.
 * * *
 
-### **Unigraph as a Compositional Framework**
+### **Aegraph as a Compositional Framework**
 
-### Unigraph introduces **a new way to construct and interpret complex systems** by enabling:
+### Aegraph introduces **a new way to construct and interpret complex systems** by enabling:
 
 1. **Composable Knowledge Graphs**
 
@@ -138,7 +138,7 @@ By rethinking **how data is represented, explored, and shared**, Unigraph establ
 
 ### **The Technical Vision: A Web-Based Graph Operating System**
 
-### Unigraph acts as a **graph-based operating system** for the web, providing:
+### Aegraph acts as a **graph-based operating system** for the web, providing:
 
 * **Graph-First Information Management** – A **universal data representation** where everything is a graph.
 * **Composable UI & API** – A system where **applications, tools, and visualizations** are modular and customizable.
@@ -149,7 +149,7 @@ By rethinking **how data is represented, explored, and shared**, Unigraph establ
 
 ### **Beyond Static Knowledge: A Living, Evolving Network**
 
-### Unigraph is **not just a tool**—it is a **living framework** that grows **organically** with contributions from its users. It transforms the web from a **static repository of information** into an **interactive, evolving knowledge space** where collaboration is:
+### Aegraph is **not just a tool**—it is a **living framework** that grows **organically** with contributions from its users. It transforms the web from a **static repository of information** into an **interactive, evolving knowledge space** where collaboration is:
 
 * **Compositional:** Knowledge is **assembled, remixed, and built upon** like code in a modular programming language.
 * **Interoperable:** Different fields, organizations, and disciplines **speak the same structural language** while maintaining domain-specific nuances.
@@ -159,5 +159,5 @@ By rethinking **how data is represented, explored, and shared**, Unigraph establ
 
 ### **The Future of Web-Based Collaboration**
 
-### With Unigraph, the web becomes a **network of meaning**—where data is **context-aware, interconnected, and accessible**through intuitive, interactive visualizations. This **redefines the way we navigate and contribute to knowledge**, fostering a new era of **collective intelligence and systemic insight**.
+### With Aegraph, the web becomes a **network of meaning**—where data is **context-aware, interconnected, and accessible**through intuitive, interactive visualizations. This **redefines the way we navigate and contribute to knowledge**, fostering a new era of **collective intelligence and systemic insight**.
 

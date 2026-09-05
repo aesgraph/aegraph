@@ -8,4 +8,4 @@ parent: "Use Cases"
 
 ### Messaging
 
-See [messaging](../../unigraphTheory/index.md#an-api-for-apis)
+See [messaging](../../aegraphTheory/index.md#an-api-for-apis)

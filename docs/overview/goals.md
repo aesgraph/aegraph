@@ -6,10 +6,10 @@ parent: "Overview"
 
 ## The near-term vision
 
-Unigraph aims to be an adaptor between web-based client-side interactive graph-based applications.
+Aegraph aims to be an adaptor between web-based client-side interactive graph-based applications.
 
-Some popular existing graph based libraries and tools Unigraph aims to leverage are listed [here](./motivation.md/#graph-based-web-libraries). Unigraph is not replacing, but absorbing and extending existing solutions so that they are interoperable.
-Unigraph is a single technology to build higher level applications that are interoperable.
+Some popular existing graph based libraries and tools Aegraph aims to leverage are listed [here](./motivation.md/#graph-based-web-libraries). Aegraph is not replacing, but absorbing and extending existing solutions so that they are interoperable.
+Aegraph is a single technology to build higher level applications that are interoperable.
 
 Some examples of higher level applications are in the domains of:
 
@@ -18,12 +18,12 @@ Some examples of higher level applications are in the domains of:
 - Data and Tool Discovery, Composition, and Chaining
 - Research and Collaboration
 
-Unigraph is a general solution for web-based client-side interaction with Graphs.
-Unigraph aims to provide a field-theoretical framework for interoperable graph-based applications.
+Aegraph is a general solution for web-based client-side interaction with Graphs.
+Aegraph aims to provide a field-theoretical framework for interoperable graph-based applications.
 
-![UnigraphMesh](../assets/images/unigraph-mesh.png)
+![AegraphMesh](../assets/images/aegraph-mesh.png)
 
-<!-- ![UnigraphV0Diagram](../assets/images/unigraphDesign/unigraphV0.png) -->
+<!-- ![AegraphV0Diagram](../assets/images/aegraphDesign/aegraphV0.png) -->
 
 ### What the demo should support (in progress)
 
@@ -31,12 +31,12 @@ Unigraph aims to provide a field-theoretical framework for interoperable graph-b
   - Dot
   - MermaidJS
   - GraphML
-  - JSON (Unigraph format)
+  - JSON (Aegraph format)
 - Interaction Layer Libraries
   - ReactFlow
   - WebGL + ForceGraph
 
-### Unigraph Demo Application Features (in progress)
+### Aegraph Demo Application Features (in progress)
 
 - Import -> Edit -> Export Workflows
 - Graph Model Editing
@@ -49,7 +49,7 @@ Unigraph aims to provide a field-theoretical framework for interoperable graph-b
 - Sub-applications 🚧
   - ImageBox Annotation Tool
 
-### Integrations for the Unigraph Demo
+### Integrations for the Aegraph Demo
 
 - Semantic Web Navigator (dbpedia + semantic query panel)
 - Graph Editing IDE (monaco + vercel ai)
@@ -62,13 +62,13 @@ Unigraph aims to provide a field-theoretical framework for interoperable graph-b
 3. Git-level version control for graph management
 4. Data Access Controls for distributed collaboration
 
-Unigraph aims to combine the best of Obsidian, VSCode, and Copilot into a single product for graph-based ideation, modeling, visualization, and analytics.
+Aegraph aims to combine the best of Obsidian, VSCode, and Copilot into a single product for graph-based ideation, modeling, visualization, and analytics.
 
-Unigraph sees itself as becoming an indespensible tool for data scientists, educators, and students, and many others. Unigraph aims to become an "IDE for analytics" by unifying graph-based technologies through a standard language and framework.
+Aegraph sees itself as becoming an indespensible tool for data scientists, educators, and students, and many others. Aegraph aims to become an "IDE for analytics" by unifying graph-based technologies through a standard language and framework.
 
-Unigraph offers a new paradigm for how humans represent and interpret information, with an unprecedented degree of accessibility.
+Aegraph offers a new paradigm for how humans represent and interpret information, with an unprecedented degree of accessibility.
 
-Unigraph aims to become the central means through which humans interact with software.
+Aegraph aims to become the central means through which humans interact with software.
 
 ### Projects related to the Big Picture
 

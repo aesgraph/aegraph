@@ -17,7 +17,7 @@ import "prismjs/themes/prism.css";
 import React, { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { SceneGraph } from "../../core/model/SceneGraph";
-import { replaceUnigraphUrlsWithLocalhost } from "../../utils/urlUtils";
+import { replaceAegraphUrlsWithLocalhost } from "../../utils/urlUtils";
 import "../applets/StoryCards/StoryCardApp.css";
 import { DefinitionPopup, DefinitionPopupData } from "./DefinitionPopup";
 import "./MarkdownViewer.css";
@@ -678,11 +678,11 @@ function MarkdownViewer({
           );
           if (parsed instanceof Promise) {
             parsed.then((htmlStr) => {
-              // Apply image styles and replace Unigraph URLs
+              // Apply image styles and replace Aegraph URLs
               const styledHtml = imageStyle
                 ? applyImageStyles(htmlStr)
                 : htmlStr;
-              const finalHtml = replaceUnigraphUrlsWithLocalhost(styledHtml);
+              const finalHtml = replaceAegraphUrlsWithLocalhost(styledHtml);
               // Fix relative image paths for docs
               const fixedHtml = finalHtml.replace(
                 /src=["']\.\.\/assets\/images\/([^"']*)["']/gi,
@@ -692,9 +692,9 @@ function MarkdownViewer({
               setLoading(false);
             });
           } else {
-            // Apply image styles and replace Unigraph URLs
+            // Apply image styles and replace Aegraph URLs
             const styledHtml = imageStyle ? applyImageStyles(parsed) : parsed;
-            const finalHtml = replaceUnigraphUrlsWithLocalhost(styledHtml);
+            const finalHtml = replaceAegraphUrlsWithLocalhost(styledHtml);
             // Fix relative image paths for docs
             const fixedHtml = finalHtml.replace(
               /src=["']\.\.\/assets\/images\/([^"']*)["']/gi,

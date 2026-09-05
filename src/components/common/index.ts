@@ -1,12 +1,12 @@
-// Export UnigraphIframe component and related types
+// Export AegraphIframe component and related types
 export type {
   DocumentationStructureConfig,
   InteractiveDiagramConfig,
-  UnigraphIframeEventHandlers,
-  UnigraphIframeProps,
-  UnigraphIframeTheme,
-} from "../../types/UnigraphIframe";
-export { default as UnigraphIframe } from "./UnigraphIframe";
+  AegraphIframeEventHandlers,
+  AegraphIframeProps,
+  AegraphIframeTheme,
+} from "../../types/AegraphIframe";
+export { default as AegraphIframe } from "./AegraphIframe";
 
 // Re-export other common components
 export { Badge } from "./Badge";

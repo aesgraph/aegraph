@@ -144,20 +144,20 @@ export const demo_scenegraph_service_mesh_2 = () => {
   });
 };
 
-// Add service mesh 3: n services connected to a single "Unigraph Intermediate Representation Language" node
+// Add service mesh 3: n services connected to a single "Aegraph Intermediate Representation Language" node
 export const demo_scenegraph_service_mesh_3 = () => {
   const graph = new Graph();
 
   const n = 8; // number of services
 
   // Create the central node
-  const unigraphIRNode = graph.createNode({
-    id: "unigraph-ir",
-    type: "unigraphIR",
-    label: "Unigraph Intermediate Representation Language",
+  const aegraphIRNode = graph.createNode({
+    id: "aegraph-ir",
+    type: "aegraphIR",
+    label: "Aegraph Intermediate Representation Language",
     userData: {
-      name: "Unigraph Intermediate Representation Language",
-      description: "Central node representing Unigraph IR Language.",
+      name: "Aegraph Intermediate Representation Language",
+      description: "Central node representing Aegraph IR Language.",
     },
   });
 
@@ -173,11 +173,11 @@ export const demo_scenegraph_service_mesh_3 = () => {
       },
     });
 
-    graph.createEdge(serviceNode.getId(), unigraphIRNode.getId(), {
-      type: "serviceToUnigraphLib",
-      label: `Service ${i + 1} → Unigraph Lib`,
+    graph.createEdge(serviceNode.getId(), aegraphIRNode.getId(), {
+      type: "serviceToAegraphLib",
+      label: `Service ${i + 1} → Aegraph Lib`,
       userData: {
-        description: `Connection from Service ${i + 1} to Unigraph Lib`,
+        description: `Connection from Service ${i + 1} to Aegraph Lib`,
       },
     });
   }
@@ -185,9 +185,9 @@ export const demo_scenegraph_service_mesh_3 = () => {
   return new SceneGraph({
     graph,
     metadata: {
-      name: "Service Mesh with Unigraph IR",
+      name: "Service Mesh with Aegraph IR",
       description:
-        "A service mesh where all services connect to Unigraph Intermediate Representation Language.",
+        "A service mesh where all services connect to Aegraph Intermediate Representation Language.",
     },
   });
 };

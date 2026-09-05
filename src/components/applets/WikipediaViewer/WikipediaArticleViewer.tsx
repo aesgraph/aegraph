@@ -3,7 +3,7 @@ import { createPortal } from "react-dom";
 import { SceneGraph } from "../../../core/model/SceneGraph";
 import {
   fixWikipediaLinks,
-  replaceUnigraphUrlsWithLocalhost,
+  replaceAegraphUrlsWithLocalhost,
 } from "../../../utils/urlUtils";
 import {
   DefinitionPopup,
@@ -172,7 +172,7 @@ export const WikipediaArticleViewer: React.FC<WikipediaArticleViewerProps> = ({
             htmlContent = highlightKeywordsFunc(htmlContent, highlightKeywords);
           }
 
-          setHtml(replaceUnigraphUrlsWithLocalhost(htmlContent));
+          setHtml(replaceAegraphUrlsWithLocalhost(htmlContent));
         } else {
           setError("Article not found or could not be loaded.");
         }

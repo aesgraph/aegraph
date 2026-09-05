@@ -373,14 +373,14 @@ const completeOutput = {
 };
 
 // Ensure output directory exists
-const outputDir = path.dirname("public/data/unigraph-ast/interface-ast.json");
+const outputDir = path.dirname("public/data/aegraph-ast/interface-ast.json");
 if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, { recursive: true });
 }
 
 // Output as JSON
 fs.writeFileSync(
-  "public/data/unigraph-ast/interface-ast.json",
+  "public/data/aegraph-ast/interface-ast.json",
   JSON.stringify(completeOutput, null, 2)
 );
 

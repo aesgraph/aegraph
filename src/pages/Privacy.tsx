@@ -71,9 +71,9 @@ const Privacy: React.FC = () => {
             1. Overview
           </h2>
           <p style={{ marginBottom: "12px", fontSize: "14px" }}>
-            This Privacy Policy describes how Unigraph handles user information.
+            This Privacy Policy describes how Aegraph handles user information.
             This is experimental software provided without warranties or
-            guarantees. Unigraph has no intent to invade user privacy and
+            guarantees. Aegraph has no intent to invade user privacy and
             collects only the information necessary for the application to
             function.
           </p>
@@ -89,7 +89,7 @@ const Privacy: React.FC = () => {
             2. Information Collection
           </h2>
           <p style={{ marginBottom: "8px", fontSize: "14px" }}>
-            Unigraph may collect:
+            Aegraph may collect:
           </p>
           <ul
             style={{
@@ -117,7 +117,7 @@ const Privacy: React.FC = () => {
           </h2>
           <p style={{ marginBottom: "12px", fontSize: "14px" }}>
             Information is used solely for application functionality,
-            development, and security purposes. Unigraph does not sell or
+            development, and security purposes. Aegraph does not sell or
             monetize user data and has no commercial interest in user
             information beyond service provisioning.
           </p>
@@ -143,7 +143,7 @@ const Privacy: React.FC = () => {
               fontSize: "13px",
             }}
           >
-            <strong>IMPORTANT:</strong> This is prototype software. Unigraph
+            <strong>IMPORTANT:</strong> This is prototype software. Aegraph
             implements reasonable security measures but cannot guarantee data
             protection. Use at your own risk.
           </p>
@@ -159,7 +159,7 @@ const Privacy: React.FC = () => {
             5. Data Sharing
           </h2>
           <p style={{ marginBottom: "12px", fontSize: "14px" }}>
-            Unigraph does not share personal information with third parties
+            Aegraph does not share personal information with third parties
             except as required by law or with explicit user consent. No
             commercial data sharing occurs.
           </p>
@@ -176,7 +176,7 @@ const Privacy: React.FC = () => {
           </h2>
           <p style={{ marginBottom: "12px", fontSize: "14px" }}>
             Users may request access to, correction of, or deletion of their
-            data. Contact Unigraph through appropriate channels for such
+            data. Contact Aegraph through appropriate channels for such
             requests.
           </p>
 
@@ -191,7 +191,7 @@ const Privacy: React.FC = () => {
             7. Changes to Policy
           </h2>
           <p style={{ marginBottom: "12px", fontSize: "14px" }}>
-            Unigraph may update this policy. Continued use constitutes
+            Aegraph may update this policy. Continued use constitutes
             acceptance of changes.
           </p>
 
@@ -218,7 +218,7 @@ const Privacy: React.FC = () => {
           >
             <strong>PROTOTYPE SOFTWARE:</strong> This application is
             experimental and provided &quot;AS IS&quot; without warranties.
-            Unigraph assumes no responsibility for data security, loss, or
+            Aegraph assumes no responsibility for data security, loss, or
             unauthorized access. Use at your own risk.
           </p>
 

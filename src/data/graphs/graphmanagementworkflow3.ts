@@ -1,12 +1,12 @@
 import { Graph } from "../../core/model/Graph";
 import { SceneGraph } from "../../core/model/SceneGraph";
 
-export const unigraphArchitectureDiagram = () => {
+export const aegraphArchitectureDiagram = () => {
   const graph = new Graph();
 
   // Core Architectural Components
   graph.createNode({
-    id: "Unigraph",
+    id: "Aegraph",
     type: "system",
     tags: ["web-based", "client-side", "story entrypoint"],
   });
@@ -99,7 +99,7 @@ export const unigraphArchitectureDiagram = () => {
     tags: ["touch", "mouse", "keyboard", "accessibility"],
   });
 
-  // Unigraph Vision Components
+  // Aegraph Vision Components
   graph.createNode({
     id: "Web3Vision",
     type: "vision pillar",
@@ -429,12 +429,12 @@ export const unigraphArchitectureDiagram = () => {
   });
 
   // Core Architecture Relationships
-  graph.createEdge("Unigraph", "GraphModelLayer", { type: "consists of" });
-  graph.createEdge("Unigraph", "SceneAbstractionLayer", {
+  graph.createEdge("Aegraph", "GraphModelLayer", { type: "consists of" });
+  graph.createEdge("Aegraph", "SceneAbstractionLayer", {
     type: "consists of",
   });
-  graph.createEdge("Unigraph", "RenderingPipeline", { type: "consists of" });
-  graph.createEdge("Unigraph", "ClientInteractivity", { type: "consists of" });
+  graph.createEdge("Aegraph", "RenderingPipeline", { type: "consists of" });
+  graph.createEdge("Aegraph", "ClientInteractivity", { type: "consists of" });
 
   // Model Layer Relationships
   graph.createEdge("GraphModelLayer", "GraphEngineCore", {
@@ -546,46 +546,46 @@ export const unigraphArchitectureDiagram = () => {
   });
 
   // Vision Relationships
-  graph.createEdge("Unigraph", "Web3Vision", { type: "embodies" });
-  graph.createEdge("Unigraph", "CompositionalCollaboration", {
+  graph.createEdge("Aegraph", "Web3Vision", { type: "embodies" });
+  graph.createEdge("Aegraph", "CompositionalCollaboration", {
     type: "enables",
   });
   graph.createEdge("SceneAbstractionLayer", "CompositionalCollaboration", {
     type: "facilitates",
   });
-  graph.createEdge("Unigraph", "DecentralizedKnowledge", { type: "supports" });
+  graph.createEdge("Aegraph", "DecentralizedKnowledge", { type: "supports" });
   graph.createEdge("ClientInteractivity", "HumanCentricNavigation", {
     type: "provides",
   });
 
   // Advanced Feature Relationships
-  graph.createEdge("Unigraph", "PatternDetection", { type: "supports" });
-  graph.createEdge("Unigraph", "MachineLearning", { type: "integrates with" });
+  graph.createEdge("Aegraph", "PatternDetection", { type: "supports" });
+  graph.createEdge("Aegraph", "MachineLearning", { type: "integrates with" });
   graph.createEdge("MachineLearning", "Recommendations", { type: "enables" });
-  graph.createEdge("Unigraph", "NaturalLanguage", { type: "supports" });
+  graph.createEdge("Aegraph", "NaturalLanguage", { type: "supports" });
   graph.createEdge("GraphEngineCore", "GraphAlgorithms", {
     type: "implements",
   });
 
   // Integration Component Relationships
-  graph.createEdge("Unigraph", "APILayer", { type: "exposes" });
-  graph.createEdge("Unigraph", "PluginSystem", { type: "supports" });
-  graph.createEdge("Unigraph", "EventSystem", { type: "utilizes" });
-  graph.createEdge("Unigraph", "DataSourceConnector", { type: "provides" });
+  graph.createEdge("Aegraph", "APILayer", { type: "exposes" });
+  graph.createEdge("Aegraph", "PluginSystem", { type: "supports" });
+  graph.createEdge("Aegraph", "EventSystem", { type: "utilizes" });
+  graph.createEdge("Aegraph", "DataSourceConnector", { type: "provides" });
   graph.createEdge("APILayer", "WebHooks", { type: "enables" });
 
   // Use Case Relationships
-  graph.createEdge("Unigraph", "SystemDiagrams", { type: "used for" });
-  graph.createEdge("Unigraph", "ScientificGraphs", { type: "used for" });
-  graph.createEdge("Unigraph", "KnowledgeRepresentation", { type: "used for" });
-  graph.createEdge("Unigraph", "SoftwareDevelopment", { type: "used for" });
+  graph.createEdge("Aegraph", "SystemDiagrams", { type: "used for" });
+  graph.createEdge("Aegraph", "ScientificGraphs", { type: "used for" });
+  graph.createEdge("Aegraph", "KnowledgeRepresentation", { type: "used for" });
+  graph.createEdge("Aegraph", "SoftwareDevelopment", { type: "used for" });
 
   // Specialized Use Case Relationships
-  graph.createEdge("Unigraph", "RealTimeCollaboration", { type: "enables" });
-  graph.createEdge("Unigraph", "DataVisualization", { type: "powers" });
-  graph.createEdge("Unigraph", "DecisionSupport", { type: "facilitates" });
-  graph.createEdge("Unigraph", "EducationalTools", { type: "powers" });
-  graph.createEdge("Unigraph", "ResearchMapping", { type: "enhances" });
+  graph.createEdge("Aegraph", "RealTimeCollaboration", { type: "enables" });
+  graph.createEdge("Aegraph", "DataVisualization", { type: "powers" });
+  graph.createEdge("Aegraph", "DecisionSupport", { type: "facilitates" });
+  graph.createEdge("Aegraph", "EducationalTools", { type: "powers" });
+  graph.createEdge("Aegraph", "ResearchMapping", { type: "enhances" });
 
   // Multi-View/Model Relationship
   graph.createEdge("GraphModelLayer", "MultipleViews", {

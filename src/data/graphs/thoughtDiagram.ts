@@ -6,7 +6,7 @@ export const constructModel = () => {
 
   graph.createNode({ id: "Graphviz" });
   graph.createNode({ id: "ReactFlow" });
-  graph.createNode({ id: "Unigraph" });
+  graph.createNode({ id: "Aegraph" });
 
   graph.createNode({ id: "A technology for communication" });
   graph.createNode({ id: "Use it to tell a story" });

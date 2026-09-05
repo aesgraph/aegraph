@@ -23,7 +23,7 @@ const defaultFiles = {
 export default function App() {
   return (
     <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
-      <h1>Welcome to Unigraph Sandpack Editor!</h1>
+      <h1>Welcome to Aegraph Sandpack Editor!</h1>
       <p>This is a live code editor with file tree and preview.</p>
       <p>Edit the code and see changes in real-time.</p>
     </div>
@@ -53,9 +53,9 @@ p {
   line-height: 1.6;
 }`,
   "/package.json": `{
-  "name": "unigraph-sandpack-demo",
+  "name": "aegraph-sandpack-demo",
   "version": "1.0.0",
-  "description": "A demo project in Unigraph Sandpack Editor",
+  "description": "A demo project in Aegraph Sandpack Editor",
   "main": "index.js",
   "dependencies": {
     "react": "^18.0.0",

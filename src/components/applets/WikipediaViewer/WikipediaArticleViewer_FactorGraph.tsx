@@ -2,8 +2,8 @@ import React, { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import {
   fixWikipediaLinks,
-  getUnigraphBaseUrl,
-  replaceUnigraphUrlsWithLocalhost,
+  getAegraphBaseUrl,
+  replaceAegraphUrlsWithLocalhost,
 } from "../../../utils/urlUtils";
 import {
   DefinitionPopup,
@@ -209,24 +209,24 @@ export const WikipediaArticleViewer_FactorGraph: React.FC<
           }
 
           // Force insert the iframe without relying on heading detection
-          const unigraphBaseUrl = getUnigraphBaseUrl();
+          const aegraphBaseUrl = getAegraphBaseUrl();
 
           console.log(
-            "loading unigraph from url",
-            `${unigraphBaseUrl}/${FACTOR_GRAPH_DATA_URL}`
+            "loading aegraph from url",
+            `${aegraphBaseUrl}/${FACTOR_GRAPH_DATA_URL}`
           );
 
-          // Only add Unigraph visualization for Factor graph article
+          // Only add Aegraph visualization for Factor graph article
           if (articleTitle.toLowerCase() === "factor graph") {
-            const unigraphIframe = `
+            const aegraphIframe = `
               <div style="margin: 20px 0; display: block; width: 100%;">
-                <h4>Interactive Unigraph Visualization</h4>
+                <h4>Interactive Aegraph Visualization</h4>
                 <iframe 
-                  src="${unigraphBaseUrl}/${FACTOR_GRAPH_DATA_URL}" 
+                  src="${aegraphBaseUrl}/${FACTOR_GRAPH_DATA_URL}" 
                   width="100%" 
                   height="500" 
                   style="border: 1px solid #ccc; display: block; margin: 0 auto; background: #fff;" 
-                  title="Unigraph unigraph"
+                  title="Aegraph aegraph"
                   allowfullscreen>
                 </iframe>
               </div>
@@ -264,8 +264,8 @@ export const WikipediaArticleViewer_FactorGraph: React.FC<
             if (heading) {
               console.log("Found heading:", heading.textContent);
               const container = document.createElement("div");
-              container.innerHTML = unigraphIframe;
-              heading.insertAdjacentHTML("afterend", unigraphIframe);
+              container.innerHTML = aegraphIframe;
+              heading.insertAdjacentHTML("afterend", aegraphIframe);
               insertionDone = true;
               htmlContent = doc.documentElement.innerHTML;
             }
@@ -282,7 +282,7 @@ export const WikipediaArticleViewer_FactorGraph: React.FC<
                 console.log(
                   "Inserting after paragraph containing 'factor graph'"
                 );
-                targetParagraph.insertAdjacentHTML("afterend", unigraphIframe);
+                targetParagraph.insertAdjacentHTML("afterend", aegraphIframe);
                 insertionDone = true;
                 htmlContent = doc.documentElement.innerHTML;
               }
@@ -293,16 +293,16 @@ export const WikipediaArticleViewer_FactorGraph: React.FC<
               console.log("Fallback: Inserting at the beginning");
               const firstElem = doc.querySelector(".mw-parser-output");
               if (firstElem) {
-                firstElem.insertAdjacentHTML("afterbegin", unigraphIframe);
+                firstElem.insertAdjacentHTML("afterbegin", aegraphIframe);
                 htmlContent = doc.documentElement.innerHTML;
               } else {
                 // Last resort - just prepend to the content
-                htmlContent = unigraphIframe + htmlContent;
+                htmlContent = aegraphIframe + htmlContent;
               }
             }
           }
 
-          setHtml(replaceUnigraphUrlsWithLocalhost(htmlContent));
+          setHtml(replaceAegraphUrlsWithLocalhost(htmlContent));
         } else {
           setError("Article not found or could not be loaded.");
         }
@@ -636,7 +636,7 @@ export const WikipediaArticleViewer_FactorGraph: React.FC<
                   targetImage.closest("figure, div.thumb") ||
                   targetImage.parentElement;
                 if (targetContainer) {
-                  const unigraphBaseUrl = getUnigraphBaseUrl();
+                  const aegraphBaseUrl = getAegraphBaseUrl();
                   // Get image dimensions
                   let width =
                     targetImage.width || targetImage.naturalWidth || 450;
@@ -676,11 +676,11 @@ export const WikipediaArticleViewer_FactorGraph: React.FC<
                   replacementDiv.innerHTML = `
                     <div style="margin: 0; display: block; width: ${width}px; ${floatStyle} ${marginStyle}">
                       <iframe
-                        src="${unigraphBaseUrl}/${FACTOR_GRAPH_DATA_URL}"
+                        src="${aegraphBaseUrl}/${FACTOR_GRAPH_DATA_URL}"
                         width="${width}"
                         height="${height}"
                         style="border: 1px solid #ccc; display: block; background: #fff; width: ${width}px; height: ${height}px;"
-                        title="Unigraph Factor Graph Example"
+                        title="Aegraph Factor Graph Example"
                         allowfullscreen>
                       </iframe>
                     </div>

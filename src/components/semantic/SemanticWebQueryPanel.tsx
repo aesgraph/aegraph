@@ -1661,7 +1661,7 @@ SELECT ?subject ?predicate ?object WHERE {
                     marginBottom: "8px",
                   }}
                 >
-                  Preview how these entities will appear in Unigraph:
+                  Preview how these entities will appear in Aegraph:
                 </div>
                 <div
                   style={{

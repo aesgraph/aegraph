@@ -76,7 +76,7 @@ function extractReferences(typeStr: string, allTypes: Set<string>): string[] {
 }
 
 export async function demo_scenegraph_ast(
-  url: string = "/data/unigraph-ast/interface-ast.json"
+  url: string = "/data/aegraph-ast/interface-ast.json"
 ): Promise<SceneGraph> {
   // Load the AST
   try {

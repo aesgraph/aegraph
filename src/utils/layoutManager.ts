@@ -1,6 +1,6 @@
 import { LayoutState } from "../types/LayoutState";
 
-const LAYOUT_STORAGE_KEY = "unigraph-layouts";
+const LAYOUT_STORAGE_KEY = "aegraph-layouts";
 
 export class LayoutManager {
   private static instance: LayoutManager;

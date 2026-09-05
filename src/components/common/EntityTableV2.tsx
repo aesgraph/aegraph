@@ -439,7 +439,7 @@ const EntityTableV2 = forwardRef<any, EntityTableV2Props>(
                   const url = entityData.url;
 
                   if (url) {
-                    // Open the URL in a new tab outside of Unigraph
+                    // Open the URL in a new tab outside of Aegraph
                     window.open(url, "_blank");
                   }
                 }

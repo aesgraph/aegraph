@@ -1,9 +1,9 @@
 import { getColor, useTheme } from "@aesgraph/app-shell";
 import React, { useState } from "react";
 import {
-  customUnigraphTheme,
-  unigraphWarmTheme,
-} from "../../themes/customUnigraphTheme";
+  customAegraphTheme,
+  aegraphWarmTheme,
+} from "../../themes/customAegraphTheme";
 
 interface UserSettingsPanelProps {
   isVisible: boolean;
@@ -44,11 +44,11 @@ const UserSettingsPanel: React.FC<UserSettingsPanelProps> = ({
 
   if (!isVisible) return null;
 
-  // Add custom Unigraph themes to available themes
+  // Add custom Aegraph themes to available themes
   const allThemes = {
     ...availableThemes,
-    "unigraph-custom": customUnigraphTheme,
-    "unigraph-warm": unigraphWarmTheme,
+    "aegraph-custom": customAegraphTheme,
+    "aegraph-warm": aegraphWarmTheme,
   };
 
   // Helper function to get button styles with hover effects

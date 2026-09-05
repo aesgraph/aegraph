@@ -356,7 +356,7 @@ export const leftFooterContent = (isOpen: boolean, theme: any) => {
   return (
     <div className={styles.menuItem}>
       <a
-        href="https://aesgraph.github.io/unigraph/"
+        href="https://aesgraph.github.io/aegraph/"
         target="_blank"
         rel="noopener noreferrer"
         className={styles.footerLink}

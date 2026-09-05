@@ -2,13 +2,13 @@ import { GraphvizLayoutType } from "../../core/layouts/GraphvizLayoutType";
 import { mergeIntoSceneGraph } from "../../core/model/mergeSceneGraphs";
 import { NodeId } from "../../core/model/Node";
 import { SceneGraph } from "../../core/model/SceneGraph";
-import { demo_scenegraph_unigraph_components } from "./demo_unigraph_components";
+import { demo_scenegraph_aegraph_components } from "./demo_aegraph_components";
 import { demo_scenegraph_writing_terms } from "./demo_writing_terms";
 
 export const demo_scenegraph_components_terms_links = () => {
   // Merge both graphs
   const tmp = new SceneGraph();
-  mergeIntoSceneGraph(tmp, demo_scenegraph_unigraph_components());
+  mergeIntoSceneGraph(tmp, demo_scenegraph_aegraph_components());
   mergeIntoSceneGraph(tmp, demo_scenegraph_writing_terms());
   const g = tmp.getGraph();
 
@@ -386,7 +386,7 @@ export const demo_scenegraph_components_terms_links = () => {
   );
 
   // Copilot & AI
-  g.createEdgeIfMissing(compId("Copilot"), termId("Unigraph Copilot"), {
+  g.createEdgeIfMissing(compId("Copilot"), termId("Aegraph Copilot"), {
     type: "component_term_link",
     label: "is",
   });
@@ -724,14 +724,14 @@ export const demo_scenegraph_components_terms_links = () => {
 
   // Human-centric design
   g.createEdgeIfMissing(
-    compId("Unigraph Components"),
+    compId("Aegraph Components"),
     termId("human-centric design"),
     { type: "component_term_link", label: "principle" }
   );
 
   // Modular architecture
   g.createEdgeIfMissing(
-    compId("Unigraph Components"),
+    compId("Aegraph Components"),
     termId("modular architecture"),
     { type: "component_term_link", label: "principle" }
   );
@@ -756,7 +756,7 @@ export const demo_scenegraph_components_terms_links = () => {
     metadata: {
       name: "Components-Terms Links",
       description:
-        "A graph linking Unigraph components to writing terms by semantic and architectural relationship.",
+        "A graph linking Aegraph components to writing terms by semantic and architectural relationship.",
     },
     defaultAppConfig: {
       activeView: "ReactFlow",

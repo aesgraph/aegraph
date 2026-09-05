@@ -64,7 +64,7 @@ class KnowledgeGraphBuilder {
     const initialNodes = [
       "Graphviz",
       "ReactFlow",
-      "Unigraph",
+      "Aegraph",
       "A technology for communication",
       "Use it to tell a story",
       "Diagramming tool",

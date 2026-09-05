@@ -2,9 +2,9 @@ import { CustomLayoutType } from "../../core/layouts/CustomLayoutEngine";
 import { Graph } from "../../core/model/Graph";
 import { mergeIntoSceneGraph } from "../../core/model/mergeSceneGraphs";
 import { SceneGraph } from "../../core/model/SceneGraph";
-import { unigraphArchitectureDiagram } from "./graphmanagementworkflow3";
+import { aegraphArchitectureDiagram } from "./graphmanagementworkflow3";
 import { semanticWebTechnologiesDiagram } from "./semanticWebDiagram";
-import { unigraphGraph } from "./unigraph";
+import { aegraphGraph } from "./aegraph";
 
 export const graphManagementWorkflowDiagram2 = () => {
   const graph = new Graph();
@@ -35,13 +35,13 @@ export const graphManagementWorkflowDiagram2 = () => {
   });
 
   graph.createNode({
-    id: "Unigraph",
+    id: "Aegraph",
     type: "concept pillar",
-    tags: ["unigraph", "story entrypoint", "graph software"],
+    tags: ["aegraph", "story entrypoint", "graph software"],
   });
 
   graph.createNode({
-    id: "UnigraphModelGraph",
+    id: "AegraphModelGraph",
     type: "concept pillar",
     tags: ["graph model"],
   });
@@ -77,7 +77,7 @@ export const graphManagementWorkflowDiagram2 = () => {
     tags: ["graph operation"],
   });
 
-  // New Nodes (Expanding Unigraph's Capabilities)
+  // New Nodes (Expanding Aegraph's Capabilities)
   graph.createNode({
     id: "EntityComponentSystem",
     type: "core framework",
@@ -143,38 +143,38 @@ export const graphManagementWorkflowDiagram2 = () => {
   graph.createEdge("Graphviz", "SVG", { type: "outputs" });
   graph.createEdge("TextDefinedGraph", "MermaidJS", { type: "converts to" });
   graph.createEdge("MermaidJS", "SVG", { type: "outputs" });
-  graph.createEdge("SVG", "Unigraph", { type: "imports into" });
-  graph.createEdge("TextDefinedGraph", "Unigraph", { type: "inputs to" });
-  graph.createEdge("Unigraph", "UpdatePositions", { type: "enables" });
-  graph.createEdge("Unigraph", "UpdateOpacity", { type: "enables" });
-  graph.createEdge("Unigraph", "UpdateSizes", { type: "enables" });
-  graph.createEdge("Unigraph", "UpdateColors", { type: "enables" });
-  graph.createEdge("UpdateOpacity", "UnigraphModelGraph", { type: "modifies" });
-  graph.createEdge("UpdateSizes", "UnigraphModelGraph", { type: "modifies" });
-  graph.createEdge("UpdatePositions", "UnigraphModelGraph", {
+  graph.createEdge("SVG", "Aegraph", { type: "imports into" });
+  graph.createEdge("TextDefinedGraph", "Aegraph", { type: "inputs to" });
+  graph.createEdge("Aegraph", "UpdatePositions", { type: "enables" });
+  graph.createEdge("Aegraph", "UpdateOpacity", { type: "enables" });
+  graph.createEdge("Aegraph", "UpdateSizes", { type: "enables" });
+  graph.createEdge("Aegraph", "UpdateColors", { type: "enables" });
+  graph.createEdge("UpdateOpacity", "AegraphModelGraph", { type: "modifies" });
+  graph.createEdge("UpdateSizes", "AegraphModelGraph", { type: "modifies" });
+  graph.createEdge("UpdatePositions", "AegraphModelGraph", {
     type: "modifies",
   });
-  graph.createEdge("UpdateColors", "UnigraphModelGraph", { type: "modifies" });
-  graph.createEdge("UnigraphModelGraph", "Export", { type: "outputs to" });
+  graph.createEdge("UpdateColors", "AegraphModelGraph", { type: "modifies" });
+  graph.createEdge("AegraphModelGraph", "Export", { type: "outputs to" });
   graph.createEdge("Export", "TextDefinedGraph", { type: "creates" });
 
-  // New Connections (Enhancing Unigraph's Graph)
-  graph.createEdge("Unigraph", "EntityComponentSystem", { type: "built on" });
+  // New Connections (Enhancing Aegraph's Graph)
+  graph.createEdge("Aegraph", "EntityComponentSystem", { type: "built on" });
   graph.createEdge("EntityComponentSystem", "OntologyGenerator", {
     type: "enables",
   });
-  graph.createEdge("Unigraph", "MultiLayerDiagrams", { type: "supports" });
+  graph.createEdge("Aegraph", "MultiLayerDiagrams", { type: "supports" });
   graph.createEdge("MultiLayerDiagrams", "ImageAnnotations", {
     type: "enhances",
   });
-  graph.createEdge("Unigraph", "AIAnalysis", { type: "integrates" });
+  graph.createEdge("Aegraph", "AIAnalysis", { type: "integrates" });
   graph.createEdge("AIAnalysis", "DataChaining", { type: "optimizes" });
-  graph.createEdge("Unigraph", "TypeSystem", { type: "incorporates" });
+  graph.createEdge("Aegraph", "TypeSystem", { type: "incorporates" });
   graph.createEdge("TypeSystem", "MedicalTypeSystem", {
     type: "specializes into",
   });
-  graph.createEdge("Unigraph", "GraphBasedUI", { type: "provides" });
-  graph.createEdge("Unigraph", "ZeroKnowledgeProofs", {
+  graph.createEdge("Aegraph", "GraphBasedUI", { type: "provides" });
+  graph.createEdge("Aegraph", "ZeroKnowledgeProofs", {
     type: "enables security for",
   });
 
@@ -197,15 +197,15 @@ export const graphManagementWorkflowDiagram2 = () => {
 
   const tmp = new SceneGraph();
   mergeIntoSceneGraph(tmp, main);
-  mergeIntoSceneGraph(tmp, unigraphGraph());
-  mergeIntoSceneGraph(tmp, unigraphArchitectureDiagram());
+  mergeIntoSceneGraph(tmp, aegraphGraph());
+  mergeIntoSceneGraph(tmp, aegraphArchitectureDiagram());
   mergeIntoSceneGraph(tmp, semanticWebTechnologiesDiagram());
 
   return new SceneGraph({
     graph: tmp.getGraph(),
     metadata: {
-      name: "Unigraph",
-      description: "A basic graph of Unigraph concepts",
+      name: "Aegraph",
+      description: "A basic graph of Aegraph concepts",
     },
   });
 };

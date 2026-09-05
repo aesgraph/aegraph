@@ -1,6 +1,6 @@
 import { SceneGraph } from "../core/model/SceneGraph";
 import { demo_scenegraph_ast } from "./demo-graphs/interfaceAstToSceneGraph";
-import { demo_scenegraph_unigraph_overview } from "./graphs/demo_unigraph_overview";
+import { demo_scenegraph_aegraph_overview } from "./graphs/demo_aegraph_overview";
 // import { urlSceneGraph } from "../../hooks/useSvgSceneGraph";
 import { mergeIntoSceneGraph } from "../core/model/mergeSceneGraphs";
 import { alethiometerDemoGraph } from "./demo-graphs/random/alethiometerDemo";
@@ -9,7 +9,7 @@ import { probabilisticBranchingGraph } from "./demo-graphs/random/probabilisticB
 import { randomBigGraph } from "./demo-graphs/random/randomBig";
 import { randomBiggestGraph } from "./demo-graphs/random/randomBiggest";
 import { starWithDecreasingLengthsGraph } from "./demo-graphs/random/starWithDecreasingLengths";
-import { demo_Unigraph_Applications } from "./demo-graphs/story-cards/demo_scenegraph_unigraph_applications";
+import { demo_Aegraph_Applications } from "./demo-graphs/story-cards/demo_scenegraph_aegraph_applications";
 import { demo_sceneGraph_academicsKG } from "./graphs/academicsKGraph";
 import { blobMeshGraph } from "./graphs/blobMesh";
 import { demo_scenegraph_all_writings } from "./graphs/demo_all_writings_graph";
@@ -17,8 +17,8 @@ import { demo_scenegraph_components_terms_links } from "./graphs/demo_components
 import { demo_scenegraph_notes_axiomatic_systems_and_primitives } from "./graphs/demo_notes_axiomatic_systems_and_primitives";
 import { demo_scenegraph_notes_complexity_and_primitives } from "./graphs/demo_notes_complexity_and_primitives";
 import { demo_scenegraph_terms_axiomatic_links } from "./graphs/demo_terms_axiomatic_links";
-import { demo_scenegraph_terms_unigraph_overview_links } from "./graphs/demo_terms_unigraph_overview_links";
-import { demo_scenegraph_unigraph_components } from "./graphs/demo_unigraph_components";
+import { demo_scenegraph_terms_aegraph_overview_links } from "./graphs/demo_terms_aegraph_overview_links";
+import { demo_scenegraph_aegraph_components } from "./graphs/demo_aegraph_components";
 import { createE8Petrie2DGraph } from "./graphs/e8Petrie2d";
 import { demo_SceneGraph_ArtCollection } from "./graphs/Gallery_Demos/demo_SceneGraph_ArtCollection";
 import {
@@ -50,8 +50,8 @@ import { cylindricalMeshGraph } from "./graphs/sphericalMesh";
 import { thinkers1 } from "./graphs/thinkers1Graph";
 import { thinkers2 } from "./graphs/thinkers2Graph";
 import { thoughtDiagram } from "./graphs/thoughtDiagram";
-import { unigraphGraph } from "./graphs/unigraph";
-import { unigraphGraph2 } from "./graphs/unigraph2";
+import { aegraphGraph } from "./graphs/aegraph";
+import { aegraphGraph2 } from "./graphs/aegraph2";
 
 export interface SceneGraphCategory {
   label: string;
@@ -64,14 +64,14 @@ export interface SceneGraphCategory {
 }
 
 const writings_graphs = {
-  UnigraphOverview: demo_scenegraph_unigraph_overview,
+  AegraphOverview: demo_scenegraph_aegraph_overview,
   AxiomaticSystems: demo_scenegraph_notes_axiomatic_systems_and_primitives,
   ComplexityAndPrimitives: demo_scenegraph_notes_complexity_and_primitives,
-  UnigraphComponents: demo_scenegraph_unigraph_components,
+  AegraphComponents: demo_scenegraph_aegraph_components,
   AllWritings: demo_scenegraph_all_writings,
   TermsLinks: demo_scenegraph_components_terms_links,
   AxiomLinks: demo_scenegraph_terms_axiomatic_links,
-  UnigraphOverviewLinks: demo_scenegraph_terms_unigraph_overview_links,
+  AegraphOverviewLinks: demo_scenegraph_terms_aegraph_overview_links,
 };
 
 const total_writing_graph = () => {
@@ -84,7 +84,7 @@ const total_writing_graph = () => {
     metadata: {
       name: "All Writings",
       description:
-        "A merged graph of all Unigraph writings and conceptual demos.",
+        "A merged graph of all Aegraph writings and conceptual demos.",
     },
   });
 };
@@ -95,7 +95,7 @@ export const DEMO_SCENE_GRAPHS: { [key: string]: SceneGraphCategory } = {
     graphs: {
       "Demo Story Cards": () => demo_SceneGraph_StoryCards(),
       numbers: () => demo_SceneGraph_Numbers_Story(),
-      unigraphApplications: () => demo_Unigraph_Applications(),
+      aegraphApplications: () => demo_Aegraph_Applications(),
       wikipediaDemo: () => demo_Wikipedia_Articles(),
       factorGraph: () => demo_SceneGraph_FactorGraph(),
       complexFactorGraph: () => demo_SceneGraph_FactorGraph_ComplexExpansion(),
@@ -129,8 +129,8 @@ export const DEMO_SCENE_GRAPHS: { [key: string]: SceneGraphCategory } = {
     label: "Demo Graphs",
     graphs: {
       thoughtDiagram: thoughtDiagram,
-      unigraph: unigraphGraph,
-      unigraph2: unigraphGraph2,
+      aegraph: aegraphGraph,
+      aegraph2: aegraphGraph2,
       graphManagementWorkflowDiagram: graphManagementWorkflowDiagram,
       graphManagementWorkflowDiagram2: graphManagementWorkflowDiagram2,
     },

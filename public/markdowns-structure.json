@@ -3,101 +3,101 @@
   "type": "directory",
   "children": [
     {
-      "path": "unigraph",
+      "path": "aegraph",
       "type": "directory",
       "children": [
         {
-          "path": "unigraph/UnigraphChromeExtension.md",
+          "path": "aegraph/AegraphChromeExtension.md",
           "type": "file",
-          "name": "UnigraphChromeExtension.md",
-          "title": "Unigraph Chrome Extension",
+          "name": "AegraphChromeExtension.md",
+          "title": "Aegraph Chrome Extension",
           "order": 1
         },
         {
-          "path": "unigraph/UnigraphCore.md",
+          "path": "aegraph/AegraphCore.md",
           "type": "file",
-          "name": "UnigraphCore.md",
-          "title": "Unigraph Core"
+          "name": "AegraphCore.md",
+          "title": "Aegraph Core"
         },
         {
-          "path": "unigraph/UnigraphOverview.md",
+          "path": "aegraph/AegraphOverview.md",
           "type": "file",
-          "name": "UnigraphOverview.md",
+          "name": "AegraphOverview.md",
           "title": "Aegraph Overview",
           "order": 0
         },
         {
-          "path": "unigraph/applets",
+          "path": "aegraph/applets",
           "type": "directory",
           "children": [
             {
-              "path": "unigraph/applets/ItineraryPlanner.md",
+              "path": "aegraph/applets/ItineraryPlanner.md",
               "type": "file",
               "name": "ItineraryPlanner.md"
             },
             {
-              "path": "unigraph/applets/MapsEngine.md",
+              "path": "aegraph/applets/MapsEngine.md",
               "type": "file",
               "name": "MapsEngine.md"
             },
             {
-              "path": "unigraph/applets/StarSystemEngine.md",
+              "path": "aegraph/applets/StarSystemEngine.md",
               "type": "file",
               "name": "StarSystemEngine.md"
             }
           ]
         },
         {
-          "path": "unigraph/applications",
+          "path": "aegraph/applications",
           "type": "directory",
           "children": [
             {
-              "path": "unigraph/applications/Art.md",
+              "path": "aegraph/applications/Art.md",
               "type": "file",
               "name": "Art.md"
             },
             {
-              "path": "unigraph/applications/BookmarkAndAnnotationPlatform.md",
+              "path": "aegraph/applications/BookmarkAndAnnotationPlatform.md",
               "type": "file",
               "name": "BookmarkAndAnnotationPlatform.md"
             },
             {
-              "path": "unigraph/applications/DataAndFunctionMarketplace.md",
+              "path": "aegraph/applications/DataAndFunctionMarketplace.md",
               "type": "file",
               "name": "DataAndFunctionMarketplace.md"
             },
             {
-              "path": "unigraph/applications/DistributedCollaboration.md",
+              "path": "aegraph/applications/DistributedCollaboration.md",
               "type": "file",
               "name": "DistributedCollaboration.md"
             },
             {
-              "path": "unigraph/applications/IntermediateRepresentationLanguage.md",
+              "path": "aegraph/applications/IntermediateRepresentationLanguage.md",
               "type": "file",
               "name": "IntermediateRepresentationLanguage.md"
             },
             {
-              "path": "unigraph/applications/PresentationPlatform.md",
+              "path": "aegraph/applications/PresentationPlatform.md",
               "type": "file",
               "name": "PresentationPlatform.md"
             },
             {
-              "path": "unigraph/applications/RichSearchPortals.md",
+              "path": "aegraph/applications/RichSearchPortals.md",
               "type": "file",
               "name": "RichSearchPortals.md"
             },
             {
-              "path": "unigraph/applications/SemanticWebConnector.md",
+              "path": "aegraph/applications/SemanticWebConnector.md",
               "type": "file",
               "name": "SemanticWebConnector.md"
             },
             {
-              "path": "unigraph/applications/YoutubeStudyCompanion.md",
+              "path": "aegraph/applications/YoutubeStudyCompanion.md",
               "type": "file",
               "name": "YoutubeStudyCompanion.md"
             },
             {
-              "path": "unigraph/applications/index.md",
+              "path": "aegraph/applications/index.md",
               "type": "file",
               "name": "index.md",
               "title": "General Applications",
@@ -106,105 +106,105 @@
           ]
         },
         {
-          "path": "unigraph/basic-examples-draft.md",
+          "path": "aegraph/basic-examples-draft.md",
           "type": "file",
           "name": "basic-examples-draft.md"
         },
         {
-          "path": "unigraph/capabilities",
+          "path": "aegraph/capabilities",
           "type": "directory",
           "children": [
             {
-              "path": "unigraph/capabilities/Accessibility.md",
+              "path": "aegraph/capabilities/Accessibility.md",
               "type": "file",
               "name": "Accessibility.md"
             },
             {
-              "path": "unigraph/capabilities/AnnotationTooling.md",
+              "path": "aegraph/capabilities/AnnotationTooling.md",
               "type": "file",
               "name": "AnnotationTooling.md",
               "title": "Annotation Tooling",
               "order": 9
             },
             {
-              "path": "unigraph/capabilities/ApplicationExtension.md",
+              "path": "aegraph/capabilities/ApplicationExtension.md",
               "type": "file",
               "name": "ApplicationExtension.md",
               "title": "Application Extension",
               "order": 5
             },
             {
-              "path": "unigraph/capabilities/CopilotIntegration.md",
+              "path": "aegraph/capabilities/CopilotIntegration.md",
               "type": "file",
               "name": "CopilotIntegration.md",
               "title": "Copilot Integration",
               "order": 12
             },
             {
-              "path": "unigraph/capabilities/DocumentEditing.md",
+              "path": "aegraph/capabilities/DocumentEditing.md",
               "type": "file",
               "name": "DocumentEditing.md",
               "title": "Document Editor",
               "order": 7
             },
             {
-              "path": "unigraph/capabilities/GraphConstruction.md",
+              "path": "aegraph/capabilities/GraphConstruction.md",
               "type": "file",
               "name": "GraphConstruction.md",
               "title": "Graph Construction",
               "order": 1
             },
             {
-              "path": "unigraph/capabilities/GraphFilters.md",
+              "path": "aegraph/capabilities/GraphFilters.md",
               "type": "file",
               "name": "GraphFilters.md",
               "title": "Graph Filters",
               "order": 3
             },
             {
-              "path": "unigraph/capabilities/GraphInterspection.md",
+              "path": "aegraph/capabilities/GraphInterspection.md",
               "type": "file",
               "name": "GraphInterspection.md",
               "title": "Graph Interspection",
               "order": 4
             },
             {
-              "path": "unigraph/capabilities/GraphLayouts.md",
+              "path": "aegraph/capabilities/GraphLayouts.md",
               "type": "file",
               "name": "GraphLayouts.md",
               "title": "Graph Layouts",
               "order": 2
             },
             {
-              "path": "unigraph/capabilities/LayoutSystem.md",
+              "path": "aegraph/capabilities/LayoutSystem.md",
               "type": "file",
               "name": "LayoutSystem.md",
               "title": "Layout System",
               "order": 6
             },
             {
-              "path": "unigraph/capabilities/ProjectManagement.md",
+              "path": "aegraph/capabilities/ProjectManagement.md",
               "type": "file",
               "name": "ProjectManagement.md",
               "title": "Project Management",
               "order": 8
             },
             {
-              "path": "unigraph/capabilities/SemanticWebQueryTool.md",
+              "path": "aegraph/capabilities/SemanticWebQueryTool.md",
               "type": "file",
               "name": "SemanticWebQueryTool.md",
               "title": "Semantic Web Query Tool",
               "order": 11
             },
             {
-              "path": "unigraph/capabilities/TypeTheoreticTooling.md",
+              "path": "aegraph/capabilities/TypeTheoreticTooling.md",
               "type": "file",
               "name": "TypeTheoreticTooling.md",
               "title": "Type Theoretic Tooling",
               "order": 10
             },
             {
-              "path": "unigraph/capabilities/index.md",
+              "path": "aegraph/capabilities/index.md",
               "type": "file",
               "name": "index.md",
               "title": "Capabilities",
@@ -213,49 +213,49 @@
           ]
         },
         {
-          "path": "unigraph/caseStudies",
+          "path": "aegraph/caseStudies",
           "type": "directory",
           "children": [
             {
-              "path": "unigraph/caseStudies/AdjacentTechnologies.md",
+              "path": "aegraph/caseStudies/AdjacentTechnologies.md",
               "type": "file",
               "name": "AdjacentTechnologies.md"
             },
             {
-              "path": "unigraph/caseStudies/DistributedCollaboration.md",
+              "path": "aegraph/caseStudies/DistributedCollaboration.md",
               "type": "file",
               "name": "DistributedCollaboration.md",
               "title": "Distributed Collaboration"
             },
             {
-              "path": "unigraph/caseStudies/DocumentationAssistTool.md",
+              "path": "aegraph/caseStudies/DocumentationAssistTool.md",
               "type": "file",
               "name": "DocumentationAssistTool.md"
             },
             {
-              "path": "unigraph/caseStudies/SoftwareSystemDiagramming.md",
+              "path": "aegraph/caseStudies/SoftwareSystemDiagramming.md",
               "type": "file",
               "name": "SoftwareSystemDiagramming.md"
             },
             {
-              "path": "unigraph/caseStudies/Zettelkasten.md",
+              "path": "aegraph/caseStudies/Zettelkasten.md",
               "type": "file",
               "name": "Zettelkasten.md"
             }
           ]
         },
         {
-          "path": "unigraph/concepts",
+          "path": "aegraph/concepts",
           "type": "directory",
           "children": [
             {
-              "path": "unigraph/concepts/DataPrimitives.md",
+              "path": "aegraph/concepts/DataPrimitives.md",
               "type": "file",
               "name": "DataPrimitives.md",
               "title": "Data Primitives"
             },
             {
-              "path": "unigraph/concepts/index.md",
+              "path": "aegraph/concepts/index.md",
               "type": "file",
               "name": "index.md",
               "title": "Concepts",
@@ -264,27 +264,27 @@
           ]
         },
         {
-          "path": "unigraph/developerNotes",
+          "path": "aegraph/developerNotes",
           "type": "directory",
           "children": [
             {
-              "path": "unigraph/developerNotes/AppShell.md",
+              "path": "aegraph/developerNotes/AegraphStack.md",
+              "type": "file",
+              "name": "AegraphStack.md",
+              "title": "The Aegraph Stack"
+            },
+            {
+              "path": "aegraph/developerNotes/AppShell.md",
               "type": "file",
               "name": "AppShell.md"
             },
             {
-              "path": "unigraph/developerNotes/EntityComponentSystem.md",
+              "path": "aegraph/developerNotes/EntityComponentSystem.md",
               "type": "file",
               "name": "EntityComponentSystem.md"
             },
             {
-              "path": "unigraph/developerNotes/UnigraphStack.md",
-              "type": "file",
-              "name": "UnigraphStack.md",
-              "title": "The Unigraph Stack"
-            },
-            {
-              "path": "unigraph/developerNotes/index.md",
+              "path": "aegraph/developerNotes/index.md",
               "type": "file",
               "name": "index.md",
               "title": "Developer Modules"
@@ -292,90 +292,136 @@
           ]
         },
         {
-          "path": "unigraph/examples",
+          "path": "aegraph/examples",
           "type": "directory",
           "children": [
             {
-              "path": "unigraph/examples/creatingGraphsProgrammatically.md",
+              "path": "aegraph/examples/aegraphApplicationsAndStoryCards.md",
+              "type": "file",
+              "name": "aegraphApplicationsAndStoryCards.md",
+              "title": "Describing Aegraph with Story Cards",
+              "order": 3
+            },
+            {
+              "path": "aegraph/examples/creatingGraphsProgrammatically.md",
               "type": "file",
               "name": "creatingGraphsProgrammatically.md",
               "title": "Creating graphs programatically",
               "order": 6
             },
             {
-              "path": "unigraph/examples/dataUrlGraph.md",
+              "path": "aegraph/examples/dataUrlGraph.md",
               "type": "file",
               "name": "dataUrlGraph.md",
               "title": "Graph by data url",
               "order": 4
             },
             {
-              "path": "unigraph/examples/index.md",
+              "path": "aegraph/examples/index.md",
               "type": "file",
               "name": "index.md",
               "title": "Examples",
               "order": 2
             },
             {
-              "path": "unigraph/examples/knowledgeGraphOfAcademics.md",
+              "path": "aegraph/examples/knowledgeGraphOfAcademics.md",
               "type": "file",
               "name": "knowledgeGraphOfAcademics.md",
               "title": "A Knowledge Graph of Academics",
               "order": 2
-            },
-            {
-              "path": "unigraph/examples/unigraphApplicationsAndStoryCards.md",
-              "type": "file",
-              "name": "unigraphApplicationsAndStoryCards.md",
-              "title": "Describing Unigraph with Story Cards",
-              "order": 3
             }
           ]
         },
         {
-          "path": "unigraph/index.md",
+          "path": "aegraph/index.md",
           "type": "file",
           "name": "index.md",
-          "title": "Unigraph",
+          "title": "Aegraph",
           "order": 0
         },
         {
-          "path": "unigraph/papers",
+          "path": "aegraph/papers",
           "type": "directory",
           "children": [
             {
-              "path": "unigraph/papers/AnalyticsEngines.md",
+              "path": "aegraph/papers/AnalyticsEngines.md",
               "type": "file",
               "name": "AnalyticsEngines.md"
             },
             {
-              "path": "unigraph/papers/InterpretableAI.md",
+              "path": "aegraph/papers/InterpretableAI.md",
               "type": "file",
               "name": "InterpretableAI.md"
             },
             {
-              "path": "unigraph/papers/OrganizationalComplexityInBigScience.md",
+              "path": "aegraph/papers/OrganizationalComplexityInBigScience.md",
               "type": "file",
               "name": "OrganizationalComplexityInBigScience.md"
             },
             {
-              "path": "unigraph/papers/OrganizationalComplexityInSoftwareEngineering.md",
+              "path": "aegraph/papers/OrganizationalComplexityInSoftwareEngineering.md",
               "type": "file",
               "name": "OrganizationalComplexityInSoftwareEngineering.md"
             },
             {
-              "path": "unigraph/papers/RetrievalAugmentedGeneration.md",
+              "path": "aegraph/papers/RetrievalAugmentedGeneration.md",
               "type": "file",
               "name": "RetrievalAugmentedGeneration.md"
             },
             {
-              "path": "unigraph/papers/index.md",
+              "path": "aegraph/papers/index.md",
               "type": "file",
               "name": "index.md",
               "title": "Papers",
               "order": 6
             }
           ]
+        }
+      ]
+    },
+    {
+      "path": "unigraph",
+      "type": "directory",
+      "children": [
+        {
+          "path": "unigraph/applets",
+          "type": "directory",
+          "children": []
+        },
+        {
+          "path": "unigraph/applications",
+          "type": "directory",
+          "children": []
+        },
+        {
+          "path": "unigraph/capabilities",
+          "type": "directory",
+          "children": []
+        },
+        {
+          "path": "unigraph/caseStudies",
+          "type": "directory",
+          "children": []
+        },
+        {
+          "path": "unigraph/concepts",
+          "type": "directory",
+          "children": []
+        },
+        {
+          "path": "unigraph/developerNotes",
+          "type": "directory",
+          "children": []
+        },
+        {
+          "path": "unigraph/examples",
+          "type": "directory",
+          "children": []
+        },
+        {
+          "path": "unigraph/papers",
+          "type": "directory",
+          "children": []
         }
       ]
     }

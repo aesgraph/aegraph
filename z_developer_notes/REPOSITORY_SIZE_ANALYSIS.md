@@ -38,8 +38,8 @@
 
 - `view_reactFlow.jpg` (1.1M)
 - `exampleSvg.png` (673K)
-- `unifinished-unigraphV0.png` (662K)
-- `unigraph-mesh.png` (627K)
+- `unifinished-aegraphV0.png` (662K)
+- `aegraph-mesh.png` (627K)
 - `view_forceGraph3d.jpg` (589K)
 
 **Rationale:**
@@ -100,24 +100,24 @@
 ### **Phase 1: High Impact, Low Risk**
 
 1. **Move Story Card Files** (17M → 0M)
-   - Create `unigraph-story-cards` repository
+   - Create `aegraph-story-cards` repository
    - Update code to fetch from CDN or separate endpoint
    - Immediate 33% size reduction
 
 2. **Move Documentation Site** (9.4M → 0M)
-   - Create `unigraph-docs` repository
+   - Create `aegraph-docs` repository
    - Deploy to GitHub Pages or Netlify
    - Update documentation links
 
 ### **Phase 2: Medium Impact**
 
 3. **Move Demo Images** (7.7M → 0M)
-   - Create `unigraph-demo-assets` repository
+   - Create `aegraph-demo-assets` repository
    - Implement lazy loading for demo assets
    - Load only when demo is accessed
 
 4. **Move Large Data Files** (3M → 0M)
-   - Create `unigraph-data` repository
+   - Create `aegraph-data` repository
    - Implement data fetching from external source
    - Add loading states for data-dependent features
 
@@ -146,7 +146,7 @@ import storyCardAssets from "./storyCardFiles/...";
 // Use dynamic loading
 const loadStoryCard = async (cardId: string) => {
   const response = await fetch(
-    `https://cdn.unigraph.dev/story-cards/${cardId}.json`
+    `https://cdn.aegraph.dev/story-cards/${cardId}.json`
   );
   return response.json();
 };
@@ -156,7 +156,7 @@ const loadStoryCard = async (cardId: string) => {
 
 ```typescript
 // Update documentation links to point to separate site
-const DOCS_BASE_URL = "https://docs.unigraph.dev";
+const DOCS_BASE_URL = "https://docs.aegraph.dev";
 ```
 
 ### **For Demo Assets:**
@@ -164,7 +164,7 @@ const DOCS_BASE_URL = "https://docs.unigraph.dev";
 ```typescript
 // Lazy load demo assets
 const loadDemoAsset = async (assetPath: string) => {
-  const response = await fetch(`https://demo-assets.unigraph.dev/${assetPath}`);
+  const response = await fetch(`https://demo-assets.aegraph.dev/${assetPath}`);
   return response.blob();
 };
 ```

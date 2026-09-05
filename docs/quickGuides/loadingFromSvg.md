@@ -4,11 +4,11 @@ nav_order: 3
 parent: "Quick Guides"
 ---
 
-### Load SVG files directly into Unigraph
+### Load SVG files directly into Aegraph
 
-You can load certain SVG files directly into Unigraph for inspection and interaction.
+You can load certain SVG files directly into Aegraph for inspection and interaction.
 
-For example, [Wikipedia: E8 Polytope Geometries](<https://en.wikipedia.org/wiki/E8_polytope>) is a collection of SVGs of orthographic projections of uniform polytopes with E8 symmetry. You can load these SVGs directly into Unigraph like so:
+For example, [Wikipedia: E8 Polytope Geometries](<https://en.wikipedia.org/wiki/E8_polytope>) is a collection of SVGs of orthographic projections of uniform polytopes with E8 symmetry. You can load these SVGs directly into Aegraph like so:
 
 ![LoadFromSvgMenu](../assets/images/loadFromSvg/loadFromSvgMenu.png)
 ![LoadFromSvgDialog](../assets/images/loadFromSvg/loadFromSvgDialog.png)
@@ -16,7 +16,7 @@ For example, [Wikipedia: E8 Polytope Geometries](<https://en.wikipedia.org/wiki/
 
 
 ### Chrome Extension (Coming Soon)
-Alternatively, you can Install the Chrome Extension and Right Click on an SVG Element to "Open in Unigraph"
+Alternatively, you can Install the Chrome Extension and Right Click on an SVG Element to "Open in Aegraph"
 
 ![ExampleSvg](../assets/images/loadFromSvg/exampleSvg.png)
 ![PosLoad](../assets/images/loadFromSvg/postLoad.png)

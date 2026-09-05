@@ -70,7 +70,7 @@ const Terms: React.FC = () => {
             1. Acceptance
           </h2>
           <p style={{ marginBottom: "12px", fontSize: "14px" }}>
-            By using Unigraph, you agree to these terms. This is experimental
+            By using Aegraph, you agree to these terms. This is experimental
             software provided without warranties.
           </p>
 
@@ -85,7 +85,7 @@ const Terms: React.FC = () => {
             2. Service Description
           </h2>
           <p style={{ marginBottom: "12px", fontSize: "14px" }}>
-            Unigraph is a prototype application for graph visualization and data
+            Aegraph is a prototype application for graph visualization and data
             analysis. This is experimental software for research and development
             purposes.
           </p>

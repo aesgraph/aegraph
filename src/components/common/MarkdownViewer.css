@@ -538,8 +538,8 @@
   box-shadow: none !important;
 }
 
-/* Style for UnigraphIframe placeholders */
-.markdown-content .unigraph-iframe-placeholder {
+/* Style for AegraphIframe placeholders */
+.markdown-content .aegraph-iframe-placeholder {
   margin: 20px 0;
   padding: 0;
   border: none;

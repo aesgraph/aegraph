@@ -546,7 +546,7 @@ const WorkspaceV2: React.FC<WorkspaceV2Props> = ({
             color: getColor(theme.colors, "text"),
           }}
         >
-          Ready • Unigraph • Scene Graph Loaded •{" "}
+          Ready • Aegraph • Scene Graph Loaded •{" "}
           {getCurrentSceneGraph().getMetadata().name
             ? "Graph Active"
             : "No Graph"}

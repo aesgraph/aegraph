@@ -30,9 +30,9 @@ export const graphManagementWorkflowDiagram = () => {
   });
 
   graph.createNode({
-    id: "Unigraph",
+    id: "Aegraph",
     type: "concept pillar",
-    tags: ["unigraph", "story entrypoint", "graph software"],
+    tags: ["aegraph", "story entrypoint", "graph software"],
   });
 
   graph.createNode({
@@ -60,7 +60,7 @@ export const graphManagementWorkflowDiagram = () => {
   });
 
   graph.createNode({
-    id: "UnigraphModelGraph",
+    id: "AegraphModelGraph",
     type: "concept pillar",
     tags: ["graph model"],
   });
@@ -76,19 +76,19 @@ export const graphManagementWorkflowDiagram = () => {
   graph.createEdge("Graphviz", "SVG", { type: "outputs" });
   graph.createEdge("TextDefinedGraph", "MermaidJS", { type: "converts to" });
   graph.createEdge("MermaidJS", "SVG", { type: "outputs" });
-  graph.createEdge("SVG", "Unigraph", { type: "imports into" });
-  graph.createEdge("TextDefinedGraph", "Unigraph", { type: "inputs to" });
-  graph.createEdge("Unigraph", "UpdatePositions", { type: "enables" });
-  graph.createEdge("Unigraph", "UpdateOpacity", { type: "enables" });
-  graph.createEdge("Unigraph", "UpdateSizes", { type: "enables" });
-  graph.createEdge("Unigraph", "UpdateColors", { type: "enables" });
-  graph.createEdge("UpdateOpacity", "UnigraphModelGraph", { type: "modifies" });
-  graph.createEdge("UpdateSizes", "UnigraphModelGraph", { type: "modifies" });
-  graph.createEdge("UpdatePositions", "UnigraphModelGraph", {
+  graph.createEdge("SVG", "Aegraph", { type: "imports into" });
+  graph.createEdge("TextDefinedGraph", "Aegraph", { type: "inputs to" });
+  graph.createEdge("Aegraph", "UpdatePositions", { type: "enables" });
+  graph.createEdge("Aegraph", "UpdateOpacity", { type: "enables" });
+  graph.createEdge("Aegraph", "UpdateSizes", { type: "enables" });
+  graph.createEdge("Aegraph", "UpdateColors", { type: "enables" });
+  graph.createEdge("UpdateOpacity", "AegraphModelGraph", { type: "modifies" });
+  graph.createEdge("UpdateSizes", "AegraphModelGraph", { type: "modifies" });
+  graph.createEdge("UpdatePositions", "AegraphModelGraph", {
     type: "modifies",
   });
-  graph.createEdge("UpdateColors", "UnigraphModelGraph", { type: "modifies" });
-  graph.createEdge("UnigraphModelGraph", "Export", { type: "outputs to" });
+  graph.createEdge("UpdateColors", "AegraphModelGraph", { type: "modifies" });
+  graph.createEdge("AegraphModelGraph", "Export", { type: "outputs to" });
   graph.createEdge("Export", "TextDefinedGraph", { type: "creates" });
 
   // console.log("journal", graphManagementWorkflowDiagram);

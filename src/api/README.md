@@ -1,6 +1,6 @@
 # Documents API
 
-This module provides comprehensive CRUD operations for documents in the Unigraph application, integrated with Supabase.
+This module provides comprehensive CRUD operations for documents in the Aegraph application, integrated with Supabase.
 
 ## Overview
 
