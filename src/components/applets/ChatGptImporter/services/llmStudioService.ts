@@ -1,8 +1,15 @@
 import { ChatMessage } from "../../../../store/chatHistoryStore";
 import { addNotification } from "../../../../store/notificationStore";
 import { sceneGraphController } from "./sceneGraphController";
+import { isLocalOrigin } from "../../../../utils/urlUtils";
 
 const API_URL = "http://localhost:1234/v1/chat/completions";
+
+// LLM Studio is a developer's own machine-local server. Reaching for it from a
+// public origin can never succeed, and the attempt alone makes Chrome prompt
+// visitors for local network access, so every call is gated on isLocalOrigin().
+export const LLM_STUDIO_UNAVAILABLE_MESSAGE =
+  "LLM Studio is only available when running Aegraph locally.";
 
 export interface LLMStudioOptions {
   temperature?: number;
@@ -53,6 +60,10 @@ export async function callLLMStudioAPI(
   messages: ChatMessage[],
   options: LLMStudioOptions = {}
 ): Promise<string> {
+  if (!isLocalOrigin()) {
+    throw new Error(LLM_STUDIO_UNAVAILABLE_MESSAGE);
+  }
+
   try {
     // Validate messages
     if (!messages || messages.length === 0) {
@@ -304,6 +315,10 @@ function getEnhancedSystemPrompt(): string {
  * @returns True if the API is available, false otherwise
  */
 export async function checkLLMStudioAvailability(): Promise<boolean> {
+  if (!isLocalOrigin()) {
+    return false;
+  }
+
   try {
     // Make sure we're sending a valid request with required fields
     // Using a properly alternating conversation format
