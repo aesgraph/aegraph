@@ -37,6 +37,7 @@ import ResourceManagerView from "./ResourceManagerView";
 import SandpackEditorWithFileTree from "./SandpackEditorWithFileTree";
 import SystemMonitorView from "./SystemMonitorView";
 import UserActivityLogsView from "./UserActivityLogsView";
+import { isLocalOrigin } from "../../utils/urlUtils";
 import { VIEW_DEFINITIONS } from "./viewDefinitions";
 import YouTubePlayerView from "./YouTubePlayerView";
 
@@ -764,27 +765,37 @@ const aegraphIframeView = {
   id: VIEW_DEFINITIONS["aegraph-iframe"].id,
   title: VIEW_DEFINITIONS["aegraph-iframe"].title,
   icon: VIEW_DEFINITIONS["aegraph-iframe"].icon,
-  component: (_props: any) => (
-    <AegraphIframe
-      src="http://localhost:3001"
-      title="Live Aegraph Application"
-      width="100%"
-      height={700}
-      showControls={true}
-      resizable={true}
-      allowFullscreen={true}
-      loadingMessage="Loading Aegraph application..."
-      style={{
-        border: "2px solid #e0e0e0",
-        borderRadius: "8px",
-        boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
-      }}
-      iframeProps={{
-        sandbox: "allow-scripts allow-same-origin allow-forms allow-popups",
-        referrerPolicy: "no-referrer",
-      }}
-    />
-  ),
+  component: (_props: any) =>
+    !isLocalOrigin() ? (
+      // The embedded instance is a local dev server; pointing an iframe at it
+      // from aegraph.dev would make Chrome prompt visitors for local network
+      // access, so the view degrades to an explanation instead.
+      <div style={{ padding: 24, color: "#666" }}>
+        This view embeds a locally running Aegraph dev server at{" "}
+        <code>http://localhost:3001</code>. It is only available when running
+        Aegraph locally.
+      </div>
+    ) : (
+      <AegraphIframe
+        src="http://localhost:3001"
+        title="Live Aegraph Application"
+        width="100%"
+        height={700}
+        showControls={true}
+        resizable={true}
+        allowFullscreen={true}
+        loadingMessage="Loading Aegraph application..."
+        style={{
+          border: "2px solid #e0e0e0",
+          borderRadius: "8px",
+          boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+        }}
+        iframeProps={{
+          sandbox: "allow-scripts allow-same-origin allow-forms allow-popups",
+          referrerPolicy: "no-referrer",
+        }}
+      />
+    ),
   category: VIEW_DEFINITIONS["aegraph-iframe"].category,
 };
 

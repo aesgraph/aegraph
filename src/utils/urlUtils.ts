@@ -1,15 +1,29 @@
 /**
+ * Whether the page itself is being served from a local origin.
+ *
+ * Anything that reaches out to localhost / a private address must be gated on
+ * this. A public origin (aegraph.dev) making such a request triggers Chrome's
+ * "wants to find and connect to devices on your local network" permission
+ * prompt, which is alarming and useless to visitors.
+ */
+export function isLocalOrigin(): boolean {
+  if (typeof window === "undefined") return false;
+  const { hostname } = window.location;
+  return (
+    hostname === "localhost" ||
+    hostname === "127.0.0.1" ||
+    hostname === "[::1]" ||
+    hostname === "::1"
+  );
+}
+
+/**
  * Utility function to replace Aegraph Vercel URLs with localhost when running locally
  * @param html HTML content that may contain aegraph.dev links
  * @returns Updated HTML with appropriate URLs
  */
 export function replaceAegraphUrlsWithLocalhost(html: string): string {
-  // Check if we're running locally by examining the current hostname
-  const isLocalhost =
-    window.location.hostname === "localhost" ||
-    window.location.hostname === "127.0.0.1";
-
-  if (!isLocalhost) {
+  if (!isLocalOrigin()) {
     // No need to replace if we're not running locally
     return html;
   }
@@ -26,10 +40,7 @@ export function replaceAegraphUrlsWithLocalhost(html: string): string {
  * @returns Base URL for Aegraph (either localhost:3000 or aegraph.dev)
  */
 export function getAegraphBaseUrl(): string {
-  const isLocalhost =
-    window.location.hostname === "localhost" ||
-    window.location.hostname === "127.0.0.1";
-  return isLocalhost ? "http://localhost:3000" : "https://aegraph.dev";
+  return isLocalOrigin() ? "http://localhost:3000" : "https://aegraph.dev";
 }
 
 /**
